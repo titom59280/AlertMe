@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alert Me</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">hello world</string>
+    <string name="valider">Valider</string>
+    <string name="hintUsername">Nom d`\'utilisateur</string>
+    <string name="hintMdp">Mot de passe</string>
+    <string name="createUserMessage">Ce compte utilisateur n\'existe pas. Voulez vous le créer ?</string>
+    <string name="createUserTitle">Nouvel utilisateur !</string>
+    <string name="create">Créer</string>
+    <string name="cancel">Annuler</string>
+    <string name="title_activity_your_alert">YourAlert</string>
+    <string name="title_activity_setting_welcome_page">SettingWelcomePage</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="messageSettingPage1">Prenez quelques secondes afin de configurer l\'application</string>
+    <string name="next">Suivant</string>
+    <string name="settings">Réglages</string>
+
+</resources>
