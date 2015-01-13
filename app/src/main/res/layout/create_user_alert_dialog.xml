@@ -16,7 +16,8 @@
         android:gravity="center"
         android:textIsSelectable="false"
         android:textSize="27dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:paddingEnd="10dp"/>
 
     <TextView
         android:layout_width="match_parent"

@@ -16,6 +16,7 @@
     <string name="welcome">Bienvenue</string>
     <string name="messageSettingPage1">Prenez quelques secondes afin de configurer l\'application</string>
     <string name="next">Suivant</string>
+    <string name="previous">précédent</string>
     <string name="settings">Réglages</string>
 
 </resources>
