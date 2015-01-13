@@ -4,4 +4,4 @@
     <solid android:color="#99000000"></solid>
     <corners android:radius="8px"></corners>
     <stoke android:width="0dp" android:color="#A5C2E0"></stoke>
-    </shape><!-- From: file:/C:/Users/Thomas/Documents/AlertMe/app/src/main/res/drawable-hdpi/linearlayout_bg.xml -->
+    </shape><!-- From: file:/C:/Users/Thomas/Documents/projetEfficom/AlertMe/app/src/main/res/drawable-hdpi/linearlayout_bg.xml -->

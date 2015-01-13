@@ -1,5 +1,5 @@
-C:\Users\Thomas\Documents\AlertMe\app\build\intermediates\classes\debug
-C:\Users\Thomas\Documents\AlertMe\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f04299ee9ba650245ad697b7a24c8d210c7e7b3d.jar
-C:\Users\Thomas\Documents\AlertMe\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c08b6cef78838ffdd677c85f0d445df24b14069b.jar
-C:\Users\Thomas\Documents\AlertMe\app\build\intermediates\pre-dexed\debug\classes-b97b97c5e370ed938b0132436d6eebf24d367e8e.jar
-C:\Users\Thomas\Documents\AlertMe\app\build\intermediates\pre-dexed\debug\classes-b8a9461cb4df903c5aafd968199e8a3e42ebfdf0.jar
+C:\Users\Thomas\Documents\projetEfficom\AlertMe\app\build\intermediates\classes\debug
+C:\Users\Thomas\Documents\projetEfficom\AlertMe\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f04299ee9ba650245ad697b7a24c8d210c7e7b3d.jar
+C:\Users\Thomas\Documents\projetEfficom\AlertMe\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-93e67c886c89da19ed02d821b495752b37a647ff.jar
+C:\Users\Thomas\Documents\projetEfficom\AlertMe\app\build\intermediates\pre-dexed\debug\classes-223695e1e40060d7317f82ad5c03b40bdc83b338.jar
+C:\Users\Thomas\Documents\projetEfficom\AlertMe\app\build\intermediates\pre-dexed\debug\classes-639c8c6b48150ff226ab9f280104610ac6b21b14.jar
