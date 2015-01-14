@@ -11,40 +11,41 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/welcome"
-            android:textSize="30dp"
-            android:layout_below="@+id/settings"
+            android:textSize="30sp"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="47dp" />
+            android:layout_marginTop="30dp" />
 
         <TextView
             android:text="@string/messageSettingPage1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_below="@+id/welcome"
             android:layout_alignParentStart="true"
             android:layout_marginTop="57dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="#18A1E7"
-        android:textColor="#fefefe"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/settings"
-        android:id="@+id/settings"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textAlignment="center"
-        android:gravity="center"/>
+    <Button
+        android:id="@+id/Parent_step_button_next"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.5"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="@color/button_grey"
+        android:layout_alignParentEnd="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/Parent_step_button_previous"
+        android:layout_weight="0.5"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/next"
-        android:id="@+id/button"
+        android:clickable="false"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:background="@color/button_grey"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        style="@style/DefaultButtonText"/>
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
-<!-- From: file:/C:/Users/Thomas/Documents/projetEfficom/AlertMe/app/src/main/res/layout/activity_setting_welcome_page.xml -->
+<!-- From: file:/C:/Users/tgraveleine/Documents/docsEfficom/AlertMe/AlertMe/app/src/main/res/layout/activity_setting_welcome_page.xml -->

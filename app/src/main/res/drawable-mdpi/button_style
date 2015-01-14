@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- focused -->
+    <item android:state_focused="true">
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="@color/action_bar_background"/>
+
+            <stroke android:width="3dip" android:color="@color/action_bar_background" />
+
+        </shape>
+    </item>
+
+    <!-- pressed -->
+    <item android:state_pressed="true" >
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="@color/action_bar_background"/>
+
+            <stroke android:width="3dip" android:color="@color/action_bar_background" />
+
+        </shape>
+    </item>
+
+    <!-- disabled -->
+    <item android:state_enabled="false">
+        <shape
+            android:shape="rectangle">
+
+            <solid android:color="@color/button_grey"/>
+
+        </shape>
+    </item>
+
+    <!-- default -->
+    <item>
+        <shape
+            android:shape="rectangle">
+
+            <gradient
+                android:startColor="#666666"
+                android:endColor="#444444"
+                android:type="linear"
+                android:angle="270" />
+
+        </shape>
+    </item>
+
+</selector>

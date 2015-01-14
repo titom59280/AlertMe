@@ -15,8 +15,9 @@
         android:textAlignment="center"
         android:gravity="center"
         android:textIsSelectable="false"
-        android:textSize="27dp"
-        android:textStyle="bold" />
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:paddingEnd="10dp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -28,4 +29,4 @@
         android:textAlignment="center"
         android:gravity="center"/>
 
-</LinearLayout><!-- From: file:/C:/Users/Thomas/Documents/projetEfficom/AlertMe/app/src/main/res/layout/create_user_alert_dialog.xml -->
+</LinearLayout><!-- From: file:/C:/Users/tgraveleine/Documents/docsEfficom/AlertMe/AlertMe/app/src/main/res/layout/create_user_alert_dialog.xml -->
