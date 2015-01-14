@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <size android:width="1dip"/>
+        <solid android:color="#666666"/>
+    <padding
+        android:bottom="5dp"
+        android:top="5dp"/>
+    </shape><!-- From: file:/C:/Users/tgraveleine/Documents/docsEfficom/AlertMe/AlertMe/app/src/main/res/drawable-mdpi/vertical_divider.xml -->

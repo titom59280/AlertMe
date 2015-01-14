@@ -1313,11 +1313,12 @@ containing a value of this type.
         public static final int mdp=0x7f02003b;
         public static final int smartphone=0x7f02003c;
         public static final int user=0x7f02003d;
-        public static final int warning=0x7f02003e;
+        public static final int vertical_divider=0x7f02003e;
+        public static final int warning=0x7f02003f;
     }
     public static final class id {
-        public static final int Parent_step_button_next=0x7f080044;
-        public static final int Parent_step_button_previous=0x7f080045;
+        public static final int Parent_step_button_next=0x7f080047;
+        public static final int Parent_step_button_previous=0x7f080046;
         public static final int action_bar=0x7f080031;
         public static final int action_bar_activity_content=0x7f080000;
         public static final int action_bar_container=0x7f080030;
@@ -1331,15 +1332,15 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f08002e;
         public static final int action_mode_bar_stub=0x7f08002d;
         public static final int action_mode_close_button=0x7f080020;
-        public static final int action_settings=0x7f080048;
+        public static final int action_settings=0x7f08004a;
         public static final int activity_chooser_view_content=0x7f080021;
         public static final int always=0x7f080016;
         public static final int beginning=0x7f080013;
         public static final int btnValider=0x7f080042;
         public static final int checkbox=0x7f080029;
         public static final int collapseActionView=0x7f080017;
-        public static final int container=0x7f080046;
-        public static final int content=0x7f080047;
+        public static final int container=0x7f080048;
+        public static final int content=0x7f080049;
         public static final int decor_content_parent=0x7f08002f;
         public static final int default_activity_button=0x7f080024;
         public static final int dialog=0x7f08001b;
@@ -1355,6 +1356,7 @@ containing a value of this type.
         public static final int ifRoom=0x7f080018;
         public static final int image=0x7f080023;
         public static final int linearLayout=0x7f08003f;
+        public static final int linearLayout3=0x7f080045;
         public static final int listMode=0x7f080009;
         public static final int list_item=0x7f080025;
         public static final int mdp=0x7f080041;
@@ -1375,6 +1377,7 @@ containing a value of this type.
         public static final int search_plate=0x7f080039;
         public static final int search_src_text=0x7f08003a;
         public static final int search_voice_btn=0x7f08003e;
+        public static final int setting_welcome_message=0x7f080044;
         public static final int shortcut=0x7f08002a;
         public static final int showCustom=0x7f08000f;
         public static final int showHome=0x7f080010;
