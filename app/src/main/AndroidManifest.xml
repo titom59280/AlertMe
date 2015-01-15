@@ -24,6 +24,10 @@
             android:name=".SettingWelcomePage"
             android:label="@string/title_activity_setting_welcome_page" >
         </activity>
+        <activity
+            android:name=".Setting_email_phone"
+            android:label="@string/title_activity_activity_setting_email_phone" >
+        </activity>
     </application>
 
 </manifest>

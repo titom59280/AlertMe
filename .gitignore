@@ -15,3 +15,16 @@ app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res
 app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-xlarge-land/values.xml
 app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-zu/values.xml
 app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/aidl/android/support/v4/app/INotificationSideChannel.aidl
+.gradle/
+local.properties
+.idea
+workspace.xml
+.DS_Store
+build/
+gradle/*
+*.iml
+app/app.iml
+gradle/gradlew
+gradle/gradlew.bat
+*.hprof
+*.db

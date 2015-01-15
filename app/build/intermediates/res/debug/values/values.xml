@@ -189,6 +189,7 @@
     <string name="next">Suivant</string>
     <string name="previous">précédent</string>
     <string name="settings">Réglages</string>
+    <string name="title_activity_activity_setting_email_phone">activity_setting_email_phone</string>
     <string name="title_activity_setting_welcome_page">SettingWelcomePage</string>
     <string name="title_activity_your_alert">YourAlert</string>
     <string name="valider">Valider</string>

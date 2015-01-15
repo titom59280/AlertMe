@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\tgraveleine\Documents\docsEfficom\AlertMe\AlertMe\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\AlertMe\AlertMe\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-1630ab36e86534d86c371c52929755294e103bf1.jar" />
-    </item>
-    <item
         jar="C:\Users\tgraveleine\Documents\docsEfficom\AlertMe\AlertMe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\AlertMe\AlertMe\app\build\intermediates\pre-dexed\debug\classes-be11c9642ffccb945a97fb3698556d90539e8a65.jar" />
+    </item>
+    <item
+        jar="C:\Users\tgraveleine\Documents\docsEfficom\AlertMe\AlertMe\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\AlertMe\AlertMe\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-1630ab36e86534d86c371c52929755294e103bf1.jar" />
     </item>
     <item
         jar="C:\Users\tgraveleine\Documents\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"

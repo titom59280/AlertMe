@@ -1304,21 +1304,21 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020032;
         public static final int background=0x7f020033;
         public static final int button_default_bg=0x7f020034;
-        public static final int button_style=0x7f020035;
+        public static final int button_setting_bg=0x7f020035;
         public static final int color_action_bar=0x7f020036;
         public static final int edittext_default_bg=0x7f020037;
         public static final int edittext_top_bg=0x7f020038;
         public static final int ic_launcher=0x7f020039;
         public static final int linearlayout_bg=0x7f02003a;
         public static final int mdp=0x7f02003b;
-        public static final int smartphone=0x7f02003c;
-        public static final int user=0x7f02003d;
-        public static final int vertical_divider=0x7f02003e;
-        public static final int warning=0x7f02003f;
+        public static final int next=0x7f02003c;
+        public static final int previous=0x7f02003d;
+        public static final int smartphone=0x7f02003e;
+        public static final int user=0x7f02003f;
+        public static final int vertical_divider=0x7f020040;
+        public static final int warning=0x7f020041;
     }
     public static final class id {
-        public static final int Parent_step_button_next=0x7f080047;
-        public static final int Parent_step_button_previous=0x7f080046;
         public static final int action_bar=0x7f080031;
         public static final int action_bar_activity_content=0x7f080000;
         public static final int action_bar_container=0x7f080030;
@@ -1337,6 +1337,8 @@ containing a value of this type.
         public static final int always=0x7f080016;
         public static final int beginning=0x7f080013;
         public static final int btnValider=0x7f080042;
+        public static final int button_next=0x7f080047;
+        public static final int button_previous=0x7f080046;
         public static final int checkbox=0x7f080029;
         public static final int collapseActionView=0x7f080017;
         public static final int container=0x7f080048;
@@ -1420,17 +1422,19 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030014;
         public static final int abc_search_view=0x7f030015;
         public static final int abc_simple_dropdown_hint=0x7f030016;
-        public static final int activity_home=0x7f030017;
-        public static final int activity_setting_welcome_page=0x7f030018;
-        public static final int activity_your_alert=0x7f030019;
-        public static final int create_user_alert_dialog=0x7f03001a;
-        public static final int fragment_your_alert=0x7f03001b;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
+        public static final int activity_activity_setting_email_phone=0x7f030017;
+        public static final int activity_home=0x7f030018;
+        public static final int activity_setting_welcome_page=0x7f030019;
+        public static final int activity_your_alert=0x7f03001a;
+        public static final int create_user_alert_dialog=0x7f03001b;
+        public static final int fragment_your_alert=0x7f03001c;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
     }
     public static final class menu {
-        public static final int menu_home=0x7f0c0000;
-        public static final int menu_setting_welcome_page=0x7f0c0001;
-        public static final int menu_your_alert=0x7f0c0002;
+        public static final int menu_activity_setting_email_phone=0x7f0c0000;
+        public static final int menu_home=0x7f0c0001;
+        public static final int menu_setting_welcome_page=0x7f0c0002;
+        public static final int menu_your_alert=0x7f0c0003;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0a0000;
@@ -1462,10 +1466,11 @@ containing a value of this type.
         public static final int next=0x7f0a001a;
         public static final int previous=0x7f0a001b;
         public static final int settings=0x7f0a001c;
-        public static final int title_activity_setting_welcome_page=0x7f0a001d;
-        public static final int title_activity_your_alert=0x7f0a001e;
-        public static final int valider=0x7f0a001f;
-        public static final int welcome=0x7f0a0020;
+        public static final int title_activity_activity_setting_email_phone=0x7f0a001d;
+        public static final int title_activity_setting_welcome_page=0x7f0a001e;
+        public static final int title_activity_your_alert=0x7f0a001f;
+        public static final int valider=0x7f0a0020;
+        public static final int welcome=0x7f0a0021;
     }
     public static final class style {
         public static final int ActionBar=0x7f0b0000;
