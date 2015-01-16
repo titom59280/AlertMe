@@ -19,5 +19,7 @@
     <string name="previous">précédent</string>
     <string name="settings">Réglages</string>
     <string name="title_activity_activity_setting_email_phone">activity_setting_email_phone</string>
+    <string name="new_user">pas encore de compte ?</string>
+    <string name="create_new_user_title">Inscription !</string>
 
 </resources>

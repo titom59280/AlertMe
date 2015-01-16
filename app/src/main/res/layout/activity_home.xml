@@ -47,6 +47,18 @@
             android:textColorHint="#bbbbbb"
             android:drawableLeft="@drawable/mdp"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_user"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:id="@+id/new_user"
+            android:gravity="center_horizontal" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
