@@ -17,24 +17,29 @@
         android:textSize="25dp"
         android:textStyle="bold"
         android:paddingEnd="10dp"/>
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/username"
-        android:background="@drawable/edittext_top_bg"
-        android:padding="10dp"
-        android:hint="@string/hintUsername"
-        android:textColorHint="#bbbbbb"
-        android:drawableLeft="@drawable/user"/>
-
-    <EditText
+        android:id="@+id/contentPart1"
+        android:text="@string/createUserMessagePart1"
+        android:textColor="#666666"
+        android:textSize="18sp"/>
+    <IconTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/mdp"
-        android:background="@drawable/edittext_default_bg"
-        android:layout_margin="-2dp"
-        android:padding="10dp"
-        android:hint="@string/hintMdp"
-        android:textColorHint="#bbbbbb"
-        android:drawableLeft="@drawable/mdp"/>
+        android:id="@+id/contentPart2"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:text="@string/createUserMessagePart2"
+        android:textColor="#666666"
+        android:textSize="18sp"/>
+    <IconTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contentPart3"
+        android:paddingLeft="10dp"
+        android:text="@string/createUserMessagePart3"
+        android:textColor="#666666"
+        android:paddingBottom="10dp"
+        android:textSize="18sp"/>
     </LinearLayout>

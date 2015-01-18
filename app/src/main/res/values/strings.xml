@@ -7,7 +7,10 @@
     <string name="valider">Valider</string>
     <string name="hintUsername">Nom d`\'utilisateur</string>
     <string name="hintMdp">Mot de passe</string>
-    <string name="createUserMessage">Ce compte utilisateur n\'existe pas. Voulez vous le créer ?</string>
+    <string name="unknowUserMessage">Ce compte utilisateur n\'existe pas. Voulez vous le créer ?</string>
+    <string name="createUserMessagePart1">Choisisez un nom d\'utilisateur ainsi qu\'un mot de passe sur l\'ecran de démarrage</string>
+    <string name="createUserMessagePart2">{fa-caret-right} cliquez sur \"Valider\"</string>
+    <string name="createUserMessagePart3">{fa-caret-right} cliquez sur \"créer\" à l\'affichage de la pop-up</string>
     <string name="createUserTitle">Nouvel utilisateur !</string>
     <string name="create">Créer</string>
     <string name="cancel">Annuler</string>
@@ -21,5 +24,10 @@
     <string name="title_activity_activity_setting_email_phone">activity_setting_email_phone</string>
     <string name="new_user">pas encore de compte ?</string>
     <string name="create_new_user_title">Inscription !</string>
+    <string name="ok">OK</string>
+    <string name="phone_and_email">E-mail &amp; phone</string>
+    <string name="content_phone_email">Afin de recevoir au mieux vos alertes veuillez indiquer votre email ainsi que votre numéro de télèphone</string>
+    <string name="hintPhone">Téléphone</string>
+    <string name="hintEmail">E-mail</string>
 
 </resources>

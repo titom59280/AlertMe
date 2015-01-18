@@ -40,12 +40,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/mdp"
-            android:background="@drawable/edittext_default_bg"
+            android:background="@drawable/edittext_top_bg"
             android:layout_margin="-2dp"
             android:padding="10dp"
             android:hint="@string/hintMdp"
             android:textColorHint="#bbbbbb"
             android:drawableLeft="@drawable/mdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_user"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:id="@+id/new_user"
+            android:gravity="center_horizontal" />
 
         <Button
             android:layout_width="match_parent"
@@ -58,4 +70,4 @@
         </LinearLayout>
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/tgraveleine/Documents/docsEfficom/AlertMe/AlertMe/app/src/main/res/layout/activity_home.xml -->
+<!-- From: file:/C:/Users/Thomas/Documents/projetEfficom/AlertMe/app/src/main/res/layout/activity_home.xml -->
