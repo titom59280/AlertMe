@@ -2,6 +2,8 @@
 <resources>
 
     <string name="app_name">Alert Me</string>
+    <string name="no">Non</string>
+    <string name="yes">Oui</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">hello world</string>
     <string name="valider">Valider</string>
@@ -29,5 +31,8 @@
     <string name="content_phone_email">Afin de recevoir au mieux vos alertes veuillez indiquer votre email ainsi que votre numéro de télèphone</string>
     <string name="hintPhone">Téléphone</string>
     <string name="hintEmail">E-mail</string>
-
+    <string name="title_activity_accept_category_from_community">AcceptCategoryFromCommunity</string>
+    <string name="content_accept_categories">Souhaitez-vous recevoir des catégories d\'autres utilisateurs. En acceptant vous recevrez de nouvelles catégories d\'alerte que vous pourrez garder ou supprimer par la suite. Si vous choisisez de refuser il vous sera toujours possible de modifier ce choix dans les paramètres.</string>
+    <string name="accept_categories_choice">Accepter de nouvelles catégories.</string>
+    <string name="title_choice_other_categories">Catégories de la communauté</string>
 </resources>

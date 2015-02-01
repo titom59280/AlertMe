@@ -28,6 +28,10 @@
             android:name=".Setting_email_phone"
             android:label="@string/title_activity_activity_setting_email_phone" >
         </activity>
+        <activity
+            android:name=".AcceptCategoryFromCommunity"
+            android:label="@string/title_activity_accept_category_from_community" >
+        </activity>
     </application>
 
 </manifest>
