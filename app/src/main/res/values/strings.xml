@@ -44,4 +44,39 @@
     <string name="contentPart3PhoneAndEmailConfirmDialog">{fa-caret-right} Recopiez les codes de confirmations que vous aurez reçus</string>
     <string name="contentPart3PhoneConfirmDialog">{fa-caret-right} Recopiez le code de confirmation reçu par SMS</string>
     <string name="contentPart3EmailConfirmDialog">{fa-caret-right} Recopiez le code de confirmation reçu par Email</string>
+    <string name="titleYourAlert">Vos alertes</string>
+
+    <!--Volet Navigation-->
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!--Item volet navigation-->
+    <string-array name="nav_drawer_items">
+        <item>Mes Alertes</item>
+        <item>Nouvelle Categories</item>
+        <item>Nouvelle Alerte</item>
+        <item>Mon Compte</item>
+    </string-array>
+
+    <!--Navigation icon-->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/plus</item>
+        <item>@drawable/plus</item>
+        <item>@drawable/user</item>
+    </array>
+    <!--Content description-->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!--home fragment-->
+    <string name="home_fragment">Home View</string>
+
+    <!--new alert fragment-->
+    <string name="new_alert_fragment">New Alert View</string>
+
+    <!--new categorie fragment-->
+    <string name="new_categorie_fragment">New Categorie View</string>
+
+    <!--my account fragment-->
+    <string name="my_account_fragment">Mon Compte View</string>
 </resources>
