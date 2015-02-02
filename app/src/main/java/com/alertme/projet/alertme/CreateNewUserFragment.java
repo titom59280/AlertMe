@@ -26,12 +26,7 @@ public class CreateNewUserFragment extends DialogFragment {
                     //nothing
 
             }
-        })
-                .setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        //nothing
-                    }
-                });
+        });
         //Create the AlertDialog object and return it
         return builder.create();
     }

@@ -9,6 +9,7 @@
     <inspection_tool class="AndroidLintRtlHardcoded" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="AndroidLintTypographyEllipsis" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="AndroidLintTypos" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AndroidLintValidFragment" enabled="false" level="ERROR" enabled_by_default="false" />
     <inspection_tool class="AnonymousClassMethodCount" enabled="true" level="INFO" enabled_by_default="true">
       <option name="m_limit" value="4" />
     </inspection_tool>

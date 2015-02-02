@@ -7,7 +7,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/create_new_user_title"
-        android:id="@+id/title"
+        android:id="@+id/titleConfirm"
         android:textColor="#fefefe"
         android:background="#18A1E7"
         android:drawableLeft="@drawable/warning"

@@ -10,7 +10,7 @@
     <string name="hintUsername">Nom d`\'utilisateur</string>
     <string name="hintMdp">Mot de passe</string>
     <string name="unknowUserMessage">Ce compte utilisateur n\'existe pas. Voulez vous le créer ?</string>
-    <string name="createUserMessagePart1">Choisisez un nom d\'utilisateur ainsi qu\'un mot de passe sur l\'ecran de démarrage</string>
+    <string name="createUserMessagePart1">Choisisez un nom d\'utilisateur ainsi qu\'un mot de passe sur l\'ecran de démarrage.</string>
     <string name="createUserMessagePart2">{fa-caret-right} cliquez sur \"Valider\"</string>
     <string name="createUserMessagePart3">{fa-caret-right} cliquez sur \"créer\" à l\'affichage de la pop-up</string>
     <string name="createUserTitle">Nouvel utilisateur !</string>
@@ -35,4 +35,13 @@
     <string name="content_accept_categories">Souhaitez-vous recevoir des catégories d\'autres utilisateurs. En acceptant vous recevrez de nouvelles catégories d\'alerte que vous pourrez garder ou supprimer par la suite. Si vous choisisez de refuser il vous sera toujours possible de modifier ce choix dans les paramètres.</string>
     <string name="accept_categories_choice">Accepter de nouvelles catégories.</string>
     <string name="title_choice_other_categories">Catégories de la communauté</string>
+    <string name="titleConfirmDialog">Confirmation !</string>
+    <string name="contentPart1PhoneAndEmailConfirmDialog">Un Email ainsi qu\'un SMS vous sera envoyer afin de confirmer vos informations.</string>
+    <string name="contentPart1EmailConfirmDialog">Un Email vous sera envoyer afin de confirmer votre adresse Email.</string>
+    <string name="contentPart1SmsConfirmDialog">Un SMS vous sera envoyer afin de confirmer votre numéro de téléphone.</string>
+    <string name="contentPart1NoneConfirmDialog">Vous avez décider de ne pas recevoir d\'alertes par SMS ni email. Vous pourez toujours modifier ce choix dans l\'espace "Votre compte".</string>
+    <string name="contentPart2PhoneAndEmailConfirmDialog">{fa-caret-right} Accéder à l\'espace "Votre compte"</string>
+    <string name="contentPart3PhoneAndEmailConfirmDialog">{fa-caret-right} Recopiez les codes de confirmations que vous aurez reçus</string>
+    <string name="contentPart3PhoneConfirmDialog">{fa-caret-right} Recopiez le code de confirmation reçu par SMS</string>
+    <string name="contentPart3EmailConfirmDialog">{fa-caret-right} Recopiez le code de confirmation reçu par Email</string>
 </resources>
