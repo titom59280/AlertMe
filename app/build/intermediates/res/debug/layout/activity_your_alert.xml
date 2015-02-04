@@ -20,7 +20,7 @@
         android:divider="@color/white"
         android:dividerHeight="1dp"
         android:listSelector="@color/white"
-        android:background="@drawable/background"/>
+        android:background="@color/action_bar_background"/>
 
 
 </android.support.v4.widget.DrawerLayout><!-- From: file:/C:/Users/tgraveleine/Documents/docsEfficom/alerTodo/app/src/main/res/layout/activity_your_alert.xml -->

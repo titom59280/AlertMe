@@ -4,10 +4,11 @@
     <string name="app_name">Alert Me</string>
     <string name="no">Non</string>
     <string name="yes">Oui</string>
+    <string name="saveLogin">Se souvenir de moi</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">hello world</string>
     <string name="valider">Valider</string>
-    <string name="hintUsername">Nom d`\'utilisateur</string>
+    <string name="hintUsername">Nom d\'utilisateur</string>
     <string name="hintMdp">Mot de passe</string>
     <string name="unknowUserMessage">Ce compte utilisateur n\'existe pas. Voulez vous le créer ?</string>
     <string name="createUserMessagePart1">Choisisez un nom d\'utilisateur ainsi qu\'un mot de passe sur l\'ecran de démarrage.</string>
@@ -16,7 +17,8 @@
     <string name="createUserTitle">Nouvel utilisateur !</string>
     <string name="create">Créer</string>
     <string name="cancel">Annuler</string>
-    <string name="title_activity_your_alert">YourAlert</string>
+    <string name="title_activity_your_alert">Mes Alertes</string>
+    <string name="menu_title">Menu</string>
     <string name="title_activity_setting_welcome_page">SettingWelcomePage</string>
     <string name="welcome">Bienvenue</string>
     <string name="messageSettingPage1">Prenez quelques secondes afin de configurer l\'application</string>
@@ -24,7 +26,7 @@
     <string name="previous">précédent</string>
     <string name="settings">Réglages</string>
     <string name="title_activity_activity_setting_email_phone">activity_setting_email_phone</string>
-    <string name="new_user">pas encore de compte ?</string>
+    <string name="new_user">Pas encore de compte ?</string>
     <string name="create_new_user_title">Inscription !</string>
     <string name="ok">OK</string>
     <string name="phone_and_email">E-mail &amp; phone</string>
@@ -44,7 +46,7 @@
     <string name="contentPart3PhoneAndEmailConfirmDialog">{fa-caret-right} Recopiez les codes de confirmations que vous aurez reçus</string>
     <string name="contentPart3PhoneConfirmDialog">{fa-caret-right} Recopiez le code de confirmation reçu par SMS</string>
     <string name="contentPart3EmailConfirmDialog">{fa-caret-right} Recopiez le code de confirmation reçu par Email</string>
-    <string name="titleYourAlert">Vos alertes</string>
+    <string name="save">Enregister</string>
 
     <!--Volet Navigation-->
     <string name="drawer_open">Slider Menu Opened</string>
@@ -53,7 +55,7 @@
     <!--Item volet navigation-->
     <string-array name="nav_drawer_items">
         <item>Mes Alertes</item>
-        <item>Nouvelle Categories</item>
+        <item>Nouvelle Categorie</item>
         <item>Nouvelle Alerte</item>
         <item>Mon Compte</item>
     </string-array>
@@ -69,14 +71,31 @@
     <string name="desc_list_item_icon">Item Icon</string>
 
     <!--home fragment-->
-    <string name="home_fragment">Home View</string>
+    <string name="title_alert_fragment">Mes Alertes</string>
 
     <!--new alert fragment-->
-    <string name="new_alert_fragment">New Alert View</string>
+    <string name="title_new_alert_fragment">Nouvelle Alerte</string>
 
     <!--new categorie fragment-->
-    <string name="new_categorie_fragment">New Categorie View</string>
+    <string name="title_new_category_fragment">Nouvelle Categorie</string>
 
     <!--my account fragment-->
-    <string name="my_account_fragment">Mon Compte View</string>
+    <string name="title_my_account_fragment">Mon Compte</string>
+    <string name="personal_informations">Informations personnelles</string>
+    <string name="confirmations">Confirmations</string>
+    <string name="stats">Statistiques</string>
+    <string name="confirEmail">Code confirmation Email</string>
+    <string name="confirSms">Code confirmation SMS</string>
+    <string name="newConfirCode">Recevoir un nouveau code de confirmation</string>
+    <string name="statAlertCreate">Nombre d\'alertes créées</string>
+    <string name="statCategoriesCreate">Nombre de catégories créées</string>
+    <string name="statCategoriesShare">Nombre de catégories partagées</string>
+    <string name="statPoints">Nombre de points</string>
+    <string name="txtAcceptNotifEmail">Accepter les notifications par E-mail</string>
+    <string name="txtAcceptNotifPhone">Accepter les notifications par SMS</string>
+    <string name="codeConfirmationEmail">Code confirmation E-mail</string>
+    <string name="codeConfirmationSms">Code confirmation SMS</string>
+    <string name="NewConfirmationCode">Recevoir un nouveau code</string>
+
+
 </resources>

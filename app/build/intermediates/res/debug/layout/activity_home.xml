@@ -24,12 +24,14 @@
         android:layout_marginBottom="72dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:id="@+id/linearLayout">
+        android:id="@+id/linearLayout"
+        android:weightSum="1">
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/username"
+            android:inputType="text"
             android:background="@drawable/edittext_top_bg"
             android:padding="10dp"
             android:hint="@string/hintUsername"
@@ -43,21 +45,42 @@
             android:background="@drawable/edittext_top_bg"
             android:layout_margin="-2dp"
             android:padding="10dp"
+            android:inputType="textPassword"
             android:hint="@string/hintMdp"
             android:textColorHint="#bbbbbb"
-            android:drawableLeft="@drawable/mdp"/>
+            android:drawableLeft="@drawable/mdp"
+            android:layout_marginTop="5dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/new_user"
-            android:textColor="@color/white"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            android:clickable="true"
-            android:textAlignment="center"
-            android:id="@+id/new_user"
-            android:gravity="center_horizontal" />
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/saveLoginCheckbox"
+                android:text="@string/saveLogin"
+                android:button="@drawable/custom_checkbox"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:layout_weight="1.0"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="12sp"
+                android:text="@string/new_user"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:textAlignment="center"
+                android:id="@+id/new_user"
+                android:paddingTop="4dp"
+                android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
 
         <Button
             android:layout_width="match_parent"

@@ -36,6 +36,7 @@ public class Setting_email_phone extends ActionBarActivity {
                     settingsPhoneEmail = new ConfirmDialog(getText(R.string.titleConfirmDialog).toString(),getText(R.string.contentPart1NoneConfirmDialog).toString(),"","",AcceptCategoryFromCommunity.class);
                 }
                 settingsPhoneEmail.show(getFragmentManager(),"create");
+                settingsPhoneEmail.setCancelable(false);
             }
         });
 

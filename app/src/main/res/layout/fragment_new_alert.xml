@@ -8,8 +8,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/txtLabel"
         android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
         android:textSize="16dp"
-        android:text="@string/new_alert_fragment"/>
+        android:text="@string/title_new_alert_fragment"/>
 
     <ImageView
         android:layout_width="wrap_content"

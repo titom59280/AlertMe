@@ -50,11 +50,11 @@ public class NavDrawerListAdapter extends BaseAdapter{
         }
 
         ImageView imgIcon = (ImageView) convertView.findViewById(R.id.icon);
-        TextView txtTitle = (TextView) convertView.findViewById(R.id.title);
+        TextView txtTitle = (TextView) convertView.findViewById(R.id.itemTitle);
         TextView txtCount = (TextView) convertView.findViewById(R.id.counter);
 
         imgIcon.setImageResource(navDrawerItems.get(position).getIcon());
-        txtTitle.setText(navDrawerItems.get(position).getCount());
+        txtTitle.setText(navDrawerItems.get(position).getTitle());
 
         //displaying count
         //check whether it set visible on not

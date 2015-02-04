@@ -7,15 +7,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/txtLabel"
-        android:layout_centerInParent="true"
         android:textSize="16dp"
-        android:text="@string/home_fragment"/>
+        android:text="@string/title_alert_fragment"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txtLabel"
         android:src="@drawable/ic_home"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:layout_below="@+id/txtLabel"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

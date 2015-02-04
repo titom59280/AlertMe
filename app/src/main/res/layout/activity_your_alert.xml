@@ -20,7 +20,7 @@
         android:divider="@color/white"
         android:dividerHeight="1dp"
         android:listSelector="@color/white"
-        android:background="@drawable/background"/>
+        android:background="@color/action_bar_background"/>
 
 
 </android.support.v4.widget.DrawerLayout>

@@ -13,7 +13,11 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.Spinner;
 
 import com.alerTodo.slidingmenu.HomeFragment;
 import com.alerTodo.slidingmenu.MyAccountFragment;
@@ -34,8 +38,9 @@ public class YourAlert extends ActionBarActivity {
     //nav drawer Title
     private CharSequence mDrawerTitle;
 
-    //used to stor app title
+    //used to store app title
     private CharSequence mTitle;
+
 
     //slide menu items
     private String[] navMenuTitles;
@@ -49,7 +54,8 @@ public class YourAlert extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_your_alert);
         //this.setTitle(R.string.titleYourAlert);
-        mTitle = mDrawerTitle = getTitle();
+        mTitle = getTitle();
+        mDrawerTitle = getText(R.string.menu_title).toString();
 
         //load slide menu items
         navMenuTitles = getResources().getStringArray(R.array.nav_drawer_items);
@@ -75,6 +81,8 @@ public class YourAlert extends ActionBarActivity {
         //Recycle the typed array
         navMenuIcons.recycle();
 
+        mDrawerList.setOnItemClickListener(new SlideMenuClickListener());
+
         //setting the nav drawer list adapter
         adapter = new NavDrawerListAdapter(getApplicationContext(),navDrawerItems);
         mDrawerList.setAdapter(adapter);
@@ -86,6 +94,7 @@ public class YourAlert extends ActionBarActivity {
         mDrawerToggle = new ActionBarDrawerToggle(this,mDrawerLayout,R.drawable.ic_drawer,R.string.app_name){
             public void onDrawerClosed(View view){
                 getSupportActionBar().setTitle(mTitle);
+
                 invalidateOptionsMenu();
             }
 
@@ -98,6 +107,17 @@ public class YourAlert extends ActionBarActivity {
 
         if(savedInstanceState == null){
             displayView(0);
+        }
+    }
+
+    /**
+     * Slide menu item click listener
+     */
+    private class SlideMenuClickListener implements ListView.OnItemClickListener{
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+            //display the view on item click
+            displayView(position);
         }
     }
 
@@ -114,10 +134,10 @@ public class YourAlert extends ActionBarActivity {
             case 1:
                 fragment = new NewCategorieFragment();
                 break;
-            case 2 :
+            case 2:
                 fragment = new NewAlertFragment();
                 break;
-            case 3 :
+            case 3:
                 fragment = new MyAccountFragment();
                 break;
             default:
@@ -128,7 +148,7 @@ public class YourAlert extends ActionBarActivity {
             FragmentManager fragmentManager = getFragmentManager();
             fragmentManager.beginTransaction().replace(R.id.frame_container, fragment).commit();
             //update selected item and title then close the drawer
-            mDrawerList.setItemChecked(position,true);
+            mDrawerList.setItemChecked(position, true);
             mDrawerList.setSelection(position);
             setTitle(navMenuTitles[position]);
             mDrawerLayout.closeDrawer(mDrawerList);
@@ -165,8 +185,7 @@ public class YourAlert extends ActionBarActivity {
     @Override
     public boolean onPrepareOptionsMenu(Menu menu){
         //id nav drawer is opened, hide the action items
-        boolean draawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
-        menu.findItem(R.id.action_settings).setVisible(!draawerOpen);
+        menu.findItem(R.id.action_settings).setVisible(false);
         return super.onPrepareOptionsMenu(menu);
     }
 

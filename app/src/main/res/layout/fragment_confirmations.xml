@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/codeConfirmationEmailTxt"
+        android:textSize="15dip"
+        android:text="@string/codeConfirmationEmail"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/emailMyAccountFragment"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="24dp"
+        android:id="@+id/codeConfirmationEmailEdit"
+        android:inputType="text"
+        android:background="@drawable/edittext_top_bg"
+        android:paddingTop="10dp"
+        android:layout_gravity="right"
+        android:layout_alignBottom="@+id/codeConfirmationEmailTxt"
+        android:layout_alignStart="@+id/codeConfirmationSMSEdit"
+        android:layout_alignTop="@+id/codeConfirmationEmailTxt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/codeConfirmationSMSTxt"
+        android:textSize="15dip"
+        android:text="@string/codeConfirmationSms"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/emailMyAccountFragment"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="24dp"
+        android:id="@+id/codeConfirmationSMSEdit"
+        android:inputType="text"
+        android:background="@drawable/edittext_top_bg"
+        android:paddingTop="10dp"
+        android:layout_gravity="right"
+        android:layout_alignBottom="@+id/codeConfirmationSMSTxt"
+        android:layout_toEndOf="@+id/codeConfirmationSMSTxt"
+        android:layout_marginStart="39dp"
+        android:layout_alignTop="@+id/codeConfirmationSMSTxt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newConfirmationCode"
+        android:textSize="10dip"
+        android:text="@string/newConfirCode"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/codeConfirmationSMSTxt"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"/>
+
+    <Spinner
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/choiceNewConfirmationCode"
+        android:layout_alignStart="@+id/codeConfirmationSMSEdit"
+        android:layout_alignTop="@+id/newConfirmationCode"
+        android:gravity="center_vertical"
+        android:layout_alignBottom="@+id/newConfirmationCode" />
+
+    <Button
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:id="@+id/sendNewCode"
+        android:text="@string/ok"
+        android:background="@drawable/button_default_bg"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/choiceNewConfirmationCode"
+        android:layout_alignEnd="@+id/codeConfirmationSMSEdit"
+        android:layout_toEndOf="@+id/choiceNewConfirmationCode"
+        android:layout_alignBottom="@+id/newConfirmationCode"
+        android:layout_marginBottom="-1dp"/>
+
+
+</RelativeLayout>

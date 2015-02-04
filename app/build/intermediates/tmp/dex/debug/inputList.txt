@@ -1,6 +1,0 @@
-C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug
-C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ada7e578df48f3a3ab4064f67c03607ad77255a5.jar
-C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c344996b27a01077c6e5361d63df451f97303f6b.jar
-C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\android-iconify-1.0.8-2e82ff6f9cada8463ac3d73d9fbbe922234ba6b3.jar
-C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\classes-3ad44fb216f2881f0291f07035d072f5676a5c3d.jar
-C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\classes-9c5eeaa897ec4a00514cfb20f07d70d08922f623.jar

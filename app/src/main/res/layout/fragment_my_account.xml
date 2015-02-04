@@ -3,19 +3,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtLabel"
-        android:layout_centerInParent="true"
-        android:textSize="16dp"
-        android:text="@string/my_account_fragment"/>
+    <ExpandableListView
+        android:id="@+id/expandMenuMyAccountFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayoutMyAccountFragment" />
 
-    <ImageView
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txtLabel"
-        android:src="@drawable/user"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"/>
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/linearLayoutMyAccountFragment"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEnregistrerMyAccountFragment"
+            android:padding="10dp"
+            android:layout_margin="4dp"
+            android:text="@string/save"
+            android:background="@drawable/button_default_bg"/>
+    </LinearLayout>
+
 </RelativeLayout>
