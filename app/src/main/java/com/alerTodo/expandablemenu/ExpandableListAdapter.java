@@ -16,6 +16,7 @@ import com.alertme.projet.alertme.R;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by tgraveleine on 03/02/2015.
@@ -26,6 +27,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
     private List<String> _listDataHeader;//titles
     private List<String> _listDataChild;
     Spinner choiceNewCode;
+    private TextView alertCreate,cateCreate,cateShare,point;
 
 
     public ExpandableListAdapter(Context context, List<String> listDataHeader, List<String> listDataChild){
@@ -85,6 +87,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
+        Random nbRandom = new Random();
 
             LayoutInflater inflater = (LayoutInflater) this._context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             switch (groupPosition){
@@ -104,7 +107,25 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                     }
                     break;
                 case 2:
-                    convertView = inflater.inflate(R.layout.fragment_home, null);
+                    convertView = inflater.inflate(R.layout.fragment_stats, null);
+                    // number aleatoire for test
+                    int nbAlertCreate = 0 + nbRandom.nextInt(500 - 0);
+                    int nbCategorieCreate = 0 + nbRandom.nextInt(500 - 0);
+                    int nbCategorieShare = 0 + nbRandom.nextInt(500 - 0);
+                    int nbPoint = 0 + nbRandom.nextInt(500 - 0);
+
+                    alertCreate = (TextView) convertView.findViewById(R.id.nbAlerteCreateStats);
+                    alertCreate.setText(String.valueOf(nbAlertCreate));
+
+                    cateCreate = (TextView) convertView.findViewById(R.id.nbCategoriesCreateStats);
+                    cateCreate.setText(String.valueOf(nbCategorieCreate));
+
+                    cateShare = (TextView) convertView.findViewById(R.id.nbCategoriesShareStats);
+                    cateShare.setText(String.valueOf(nbCategorieShare));
+
+                    point = (TextView) convertView.findViewById(R.id.nbPointsStats);
+                    point.setText(String.valueOf(nbPoint));
+
                     break;
                 default:
                     break;

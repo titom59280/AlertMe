@@ -81,21 +81,29 @@
 
     <!--my account fragment-->
     <string name="title_my_account_fragment">Mon Compte</string>
+
     <string name="personal_informations">Informations personnelles</string>
+    <string name="txtAcceptNotifEmail">Accepter les notifications par E-mail</string>
+    <string name="txtAcceptNotifPhone">Accepter les notifications par SMS</string>
+
     <string name="confirmations">Confirmations</string>
-    <string name="stats">Statistiques</string>
-    <string name="confirEmail">Code confirmation Email</string>
-    <string name="confirSms">Code confirmation SMS</string>
+    <string name="codeConfirmationEmail">Code confirmation E-mail</string>
+    <string name="codeConfirmationSms">Code confirmation SMS</string>
     <string name="newConfirCode">Recevoir un nouveau code de confirmation</string>
+
+
+    <string name="stats">Statistiques</string>
     <string name="statAlertCreate">Nombre d\'alertes créées</string>
     <string name="statCategoriesCreate">Nombre de catégories créées</string>
     <string name="statCategoriesShare">Nombre de catégories partagées</string>
     <string name="statPoints">Nombre de points</string>
-    <string name="txtAcceptNotifEmail">Accepter les notifications par E-mail</string>
-    <string name="txtAcceptNotifPhone">Accepter les notifications par SMS</string>
-    <string name="codeConfirmationEmail">Code confirmation E-mail</string>
-    <string name="codeConfirmationSms">Code confirmation SMS</string>
-    <string name="NewConfirmationCode">Recevoir un nouveau code</string>
+
+
+
+
+
+
+
 
 
 </resources>

@@ -53,73 +53,14 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.alertme.projet.alertme" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71100d25-5a6f-4452-ad68-1ed5a3194e79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_confirmations.xml" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\android\support\v7\appcompat\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\CreateUserFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\CreateUserFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\CreateUserFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\Home$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\Home.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$menu.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\R.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\SettingWelcomePage.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\classes\debug\com\alertme\projet\alertme\YourAlert.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\dex\debug\classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\tmp\dex\debug\inputList.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\src\main\res\drawable-hdpi\edittext_default_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\src\main\res\drawable\color_action_bar.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/plus.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/plus.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/user.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/user.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Home.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/HomeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/HomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/MyAccountFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/MyAccountFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/adapter/NavDrawerListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/adapter/NavDrawerListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/NewAlertFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/NewAlertFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/NewCategorieFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/NewCategorieFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExpandableListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExpandableListAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/alertme/projet/alertme/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/alertme/projet/alertme/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Setting_email_phone.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Setting_email_phone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/YourAlert.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/YourAlert.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_your_alert.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_your_alert.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/drawer_list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/drawer_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_account.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_account.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_alert.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_alert.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_categorie.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_categorie.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_informations.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_informations.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Alert Me.iws" />
@@ -147,7 +88,25 @@
     <favorites_list name="Alert Me" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="fragment_personal_informations.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_informations.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="2278">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+              <folding>
+                <element signature="tag#TextView#0;tag#RelativeLayout#0" expanded="false" />
+                <element signature="tag#TextView#1;tag#RelativeLayout#0" expanded="false" />
+                <element signature="tag#TextView#2;tag#RelativeLayout#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -758,7 +717,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_welcome_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/button_default_bg.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/create_user_alert_dialog.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/edittext.xml" />
@@ -796,7 +754,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_group.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_informations.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_my_account.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/checked.xml" />
@@ -804,11 +761,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/custom_checkbox.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Home.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/YourAlert.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/MyAccountFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExpandableListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_confirmations.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExpandableListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_stats.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_informations.xml" />
       </list>
     </option>
   </component>
@@ -1373,7 +1332,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1389,12 +1348,12 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32765958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35425532" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35425532" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16364606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39893618" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1445,31 +1404,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExpandableListAdapter.java</url>
-          <line>89</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExpandableListAdapter.java</url>
-          <line>88</line>
+          <line>91</line>
           <properties />
           <option name="timeStamp" value="61" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExpandableListAdapter.java</url>
-          <line>91</line>
+          <line>94</line>
           <properties />
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExpandableListAdapter.java</url>
-          <line>94</line>
+          <line>97</line>
           <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExpandableListAdapter.java</url>
-          <line>106</line>
+          <line>109</line>
           <properties />
           <option name="timeStamp" value="67" />
         </line-breakpoint>
@@ -1672,29 +1631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.6" vertical-offset="1259" max-vertical-offset="1819">
-          <caret line="97" column="67" selection-start-line="97" selection-start-column="67" selection-end-line="97" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_my_account.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.7777777" vertical-offset="0" max-vertical-offset="612">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_informations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.11111" vertical-offset="2268" max-vertical-offset="2873">
-          <caret line="159" column="8" selection-start-line="159" selection-start-column="8" selection-end-line="159" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1885,16 +1825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/MyAccountFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="377" max-vertical-offset="1564">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/NewAlertFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
@@ -1911,15 +1841,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8077634" vertical-offset="1229" max-vertical-offset="1955">
+          <caret line="98" column="28" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExpandableListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="887" max-vertical-offset="1938">
-          <caret line="76" column="52" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.626943" vertical-offset="1592" max-vertical-offset="2329">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3244#3252#0" expanded="true" />
+            <element signature="e#3370#3378#0" expanded="true" />
+            <element signature="e#5029#5030#0" expanded="true" />
+            <element signature="e#5056#5057#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_stats.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2105265" vertical-offset="1664" max-vertical-offset="2159">
+          <caret line="112" column="30" selection-start-line="112" selection-start-column="30" selection-end-line="112" selection-end-column="30" />
+          <folding>
+            <element signature="e#404#429#0" expanded="true" />
+            <element signature="e#1471#1501#0" expanded="true" />
+            <element signature="e#2568#2597#0" expanded="true" />
+            <element signature="e#3627#3647#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/MyAccountFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34715027" vertical-offset="581" max-vertical-offset="1564">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_informations.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="2261">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="tag#TextView#0;tag#RelativeLayout#0" expanded="false" />
+            <element signature="tag#TextView#1;tag#RelativeLayout#0" expanded="false" />
+            <element signature="tag#TextView#2;tag#RelativeLayout#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

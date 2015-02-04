@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nbAlerteCreateStatsTxt"
+        android:textSize="17dip"
+        android:text="@string/statAlertCreate"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:id="@+id/nbAlerteCreateStats"
+        android:inputType="text"
+        android:textColor="@color/action_bar_background"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="right"
+        android:layout_marginEnd="29dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignBottom="@+id/nbAlerteCreateStatsTxt"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nbCategoriesCreateStatsTxt"
+        android:textSize="17dip"
+        android:text="@string/statCategoriesCreate"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/nbAlerteCreateStats"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:id="@+id/nbCategoriesCreateStats"
+        android:inputType="text"
+        android:textColor="@color/action_bar_background"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="right"
+        android:layout_alignTop="@+id/nbCategoriesCreateStatsTxt"
+        android:layout_alignStart="@+id/nbAlerteCreateStats"
+        android:layout_alignBottom="@+id/nbCategoriesCreateStatsTxt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nbCategoriesShareStatsTxt"
+        android:textSize="17dip"
+        android:text="@string/statCategoriesShare"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/nbCategoriesCreateStats"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:id="@+id/nbCategoriesShareStats"
+        android:textColor="@color/action_bar_background"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="right"
+        android:layout_alignTop="@+id/nbCategoriesShareStatsTxt"
+        android:layout_alignStart="@+id/nbCategoriesCreateStats"
+        android:layout_alignBottom="@+id/nbCategoriesShareStatsTxt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nbPointsStatsTxt"
+        android:textSize="17dip"
+        android:text="@string/statPoints"
+        android:textColor="@color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/nbCategoriesShareStats"
+        android:layout_marginBottom="5dp" />
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="24dp"
+        android:id="@+id/nbPointsStats"
+        android:textColor="@color/action_bar_background"
+        android:textStyle="bold"
+        android:textSize="21dp"
+        android:paddingTop="10dp"
+        android:layout_alignTop="@+id/nbPointsStatsTxt"
+        android:layout_alignStart="@+id/nbCategoriesShareStats"
+        android:layout_alignBottom="@+id/nbPointsStatsTxt" />
+
+
+</RelativeLayout>
