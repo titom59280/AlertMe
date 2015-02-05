@@ -15,19 +15,21 @@
         android:paddingBottom="5dp"
         android:paddingLeft="5dp"
         android:layout_below="@+id/emailMyAccountFragment"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentLeft="true" />
 
     <EditText
         android:layout_width="150dp"
-        android:layout_height="24dp"
+        android:layout_height="31dp"
         android:id="@+id/codeConfirmationEmailEdit"
         android:inputType="text"
         android:background="@drawable/edittext_top_bg"
         android:paddingTop="10dp"
+        android:padding="10dp"
         android:layout_gravity="right"
-        android:layout_alignBottom="@+id/codeConfirmationEmailTxt"
-        android:layout_alignStart="@+id/codeConfirmationSMSEdit"
-        android:layout_alignTop="@+id/codeConfirmationEmailTxt" />
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/newConfirmationCode"
+        android:layout_toEndOf="@+id/newConfirmationCode"
+        android:layout_marginTop="5dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -41,20 +43,20 @@
         android:paddingLeft="5dp"
         android:layout_marginTop="50dp"
         android:layout_below="@+id/emailMyAccountFragment"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentLeft="true" />
 
     <EditText
         android:layout_width="150dp"
-        android:layout_height="24dp"
+        android:layout_height="31dp"
         android:id="@+id/codeConfirmationSMSEdit"
         android:inputType="text"
         android:background="@drawable/edittext_top_bg"
         android:paddingTop="10dp"
+        android:padding="10dp"
         android:layout_gravity="right"
         android:layout_alignBottom="@+id/codeConfirmationSMSTxt"
-        android:layout_toEndOf="@+id/codeConfirmationSMSTxt"
-        android:layout_marginStart="39dp"
-        android:layout_alignTop="@+id/codeConfirmationSMSTxt" />
+        android:layout_toRightOf="@+id/newConfirmationCode"
+        android:layout_toEndOf="@+id/newConfirmationCode" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -68,30 +70,29 @@
         android:paddingLeft="5dp"
         android:layout_marginTop="18dp"
         android:layout_below="@+id/codeConfirmationSMSTxt"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginBottom="10dp"/>
 
     <Spinner
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:id="@+id/choiceNewConfirmationCode"
-        android:layout_alignStart="@+id/codeConfirmationSMSEdit"
+        android:layout_alignLeft="@+id/codeConfirmationSMSEdit"
         android:layout_alignTop="@+id/newConfirmationCode"
         android:gravity="center_vertical"
-        android:layout_alignBottom="@+id/newConfirmationCode" />
+        android:layout_alignBottom="@+id/newConfirmationCode"
+        android:spinnerMode="dropdown" />
 
     <Button
-        android:layout_width="5dp"
+        android:layout_width="55dp"
         android:layout_height="5dp"
         android:id="@+id/sendNewCode"
         android:text="@string/ok"
         android:background="@drawable/button_default_bg"
-        android:layout_marginLeft="10dp"
         android:layout_alignTop="@+id/choiceNewConfirmationCode"
-        android:layout_alignEnd="@+id/codeConfirmationSMSEdit"
-        android:layout_toEndOf="@+id/choiceNewConfirmationCode"
-        android:layout_alignBottom="@+id/newConfirmationCode"
-        android:layout_marginBottom="-1dp"/>
+        android:layout_alignBottom="@+id/choiceNewConfirmationCode"
+        android:layout_alignRight="@+id/codeConfirmationSMSEdit"
+        android:layout_alignEnd="@+id/codeConfirmationSMSEdit" />
 
 
 </RelativeLayout>

@@ -400,7 +400,7 @@ int id checkbox 0x7f090029
 int id choiceNewConfirmationCode 0x7f090060
 int id codeConfirmationEmailEdit 0x7f09005c
 int id codeConfirmationEmailTxt 0x7f09005a
-int id codeConfirmationSMSEdit 0x7f09005d
+int id codeConfirmationSMSEdit 0x7f09005f
 int id codeConfirmationSMSTxt 0x7f09005e
 int id collapseActionView 0x7f090017
 int id content 0x7f090057
@@ -452,7 +452,7 @@ int id nbCategoriesShareStatsTxt 0x7f090075
 int id nbPointsStats 0x7f090078
 int id nbPointsStatsTxt 0x7f090077
 int id never 0x7f090019
-int id newConfirmationCode 0x7f09005f
+int id newConfirmationCode 0x7f09005d
 int id new_user 0x7f09004e
 int id none 0x7f09000e
 int id normal 0x7f09000a

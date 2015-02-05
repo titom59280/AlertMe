@@ -1,36 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/lbListItemMyAccountFragment"
             android:textSize="17dip"
+            android:inputType="text"
             android:text="@string/hintUsername"
+            android:layout_gravity="center_vertical"
             android:textColor="@color/black"
-            android:paddingTop="10dp"
+            android:paddingTop="5dp"
             android:paddingBottom="5dp"
             android:paddingLeft="5dp"
-            android:layout_alignParentTop="true"
             android:layout_marginTop="5dp"/>
 
     <EditText
         android:layout_width="159dp"
-        android:layout_height="24dp"
+        android:layout_height="31dp"
         android:id="@+id/usernameFragmentPersonalInformation"
-        android:inputType="textNoSuggestions"
         android:background="@drawable/edittext_top_bg"
-        android:paddingTop="10dp"
-        android:layout_gravity="right"
-        android:layout_marginEnd="29dp"
-        android:layout_marginTop="5dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignBottom="@+id/lbListItemMyAccountFragment" />
-
+        android:paddingTop="5dp"
+        android:padding="10dp"
+        android:inputType="textNoSuggestions"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1.0"
+        android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,24 +49,32 @@
         android:textSize="17dip"
         android:text="@string/hintMdp"
         android:textColor="@color/black"
-        android:paddingTop="10dp"
+        android:paddingTop="5dp"
         android:paddingBottom="5dp"
         android:paddingLeft="5dp"
         android:layout_marginTop="18dp"
-        android:layout_below="@+id/lbListItemMyAccountFragment"
-        android:layout_alignParentStart="true" />
+        android:layout_below="@+id/lbListItemMyAccountFragment" />
 
     <EditText
         android:layout_width="159dp"
-        android:layout_height="24dp"
+        android:layout_height="31dp"
         android:id="@+id/mdpEditMyAccountFragment"
         android:inputType="textPassword"
         android:background="@drawable/edittext_top_bg"
-        android:paddingTop="10dp"
-        android:layout_gravity="right"
-        android:layout_alignTop="@+id/mdpMyAccountFragment"
-        android:layout_alignStart="@+id/usernameFragmentPersonalInformation"
-        android:layout_alignBottom="@+id/mdpMyAccountFragment" />
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:layout_weight="1.0"
+        android:layout_marginLeft="77dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="4dp"
+        android:paddingTop="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
 
     <TextView
         android:layout_width="wrap_content"
@@ -64,25 +83,33 @@
         android:textSize="17dip"
         android:text="@string/hintEmail"
         android:textColor="@color/black"
-        android:paddingTop="10dp"
+        android:paddingTop="5dp"
         android:paddingBottom="5dp"
         android:paddingLeft="5dp"
         android:layout_marginTop="18dp"
         android:layout_below="@+id/mdpMyAccountFragment"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="-0.5dp" />
 
     <EditText
-        android:layout_width="159dp"
-        android:layout_height="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
         android:id="@+id/emailEditMyAccountFragment"
         android:inputType="textEmailAddress"
         android:background="@drawable/edittext_top_bg"
-        android:paddingTop="10dp"
-        android:layout_gravity="right"
-        android:layout_alignTop="@+id/emailMyAccountFragment"
-        android:layout_alignStart="@+id/mdpEditMyAccountFragment"
-        android:layout_alignBottom="@+id/emailMyAccountFragment" />
-
+        android:paddingTop="5dp"
+        android:padding="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="132.5dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="3.5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -90,49 +117,67 @@
         android:textSize="17dip"
         android:text="@string/hintPhone"
         android:textColor="@color/black"
-        android:paddingTop="10dp"
+        android:paddingTop="5dp"
         android:paddingBottom="10dp"
         android:paddingLeft="5dp"
         android:layout_below="@+id/acceptNotifEmail"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginTop="18dp" />
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:id="@+id/phoneEditMyAccountFragment"
+        android:inputType="phone"
+        android:background="@drawable/edittext_top_bg"
+        android:paddingTop="5dp"
+        android:padding="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="1.2dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
 
-    <Switch
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/acceptNotifEmailTxt"
+            android:textSize="10dip"
+            android:text="@string/txtAcceptNotifEmail"
+            android:textColor="@color/black"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:layout_alignTop="@+id/acceptNotifEmail"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="4dp" />
+
+        <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/acceptNotifEmail"
         android:textOff="@string/no"
         android:textOn="@string/yes"
         android:layout_marginTop="21dp"
-        android:layout_below="@+id/emailEditMyAccountFragment"
-        android:layout_alignEnd="@+id/phoneEditMyAccountFragment" />
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="52.5dp" />
 
-    <EditText
-        android:layout_width="159dp"
-        android:layout_height="24dp"
-        android:id="@+id/phoneEditMyAccountFragment"
-        android:inputType="phone"
-        android:background="@drawable/edittext_top_bg"
-        android:paddingTop="10dp"
-        android:layout_gravity="right"
-        android:layout_alignBottom="@+id/phoneMyAccountFragment"
-        android:layout_alignStart="@+id/emailEditMyAccountFragment"
-        android:layout_alignTop="@+id/phoneMyAccountFragment" />
 
-    <TextView
-        android:layout_width="wrap_content"
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/acceptNotifEmailTxt"
-        android:textSize="10dip"
-        android:text="@string/txtAcceptNotifEmail"
-        android:textColor="@color/black"
-        android:paddingTop="10dp"
-        android:paddingBottom="5dp"
-        android:paddingLeft="5dp"
-        android:layout_alignTop="@+id/acceptNotifEmail"
-        android:layout_alignParentStart="true" />
-
+        android:orientation="horizontal"
+        android:weightSum="1">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -144,9 +189,10 @@
         android:paddingBottom="5dp"
         android:paddingLeft="5dp"
         android:layout_below="@+id/phoneMyAccountFragment"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginTop="18dp"
-        android:layout_marginBottom="5dp"/>
+        android:layout_marginBottom="6dp"
+        android:layout_gravity="center_vertical" />
 
     <Switch
         android:layout_width="wrap_content"
@@ -154,10 +200,11 @@
         android:id="@+id/acceptNotifPhone"
         android:textOff="@string/no"
         android:textOn="@string/yes"
-        android:layout_alignBaseline="@+id/acceptNotifPhoneTxt"
-        android:layout_alignBottom="@+id/acceptNotifPhoneTxt"
-        android:layout_alignEnd="@+id/phoneEditMyAccountFragment"
-        android:layout_marginBottom="5dp"/>
-
-
-</RelativeLayout>
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="64dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="3dp"
+        android:paddingBottom="5dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1370,7 +1370,7 @@ containing a value of this type.
         public static final int choiceNewConfirmationCode=0x7f090060;
         public static final int codeConfirmationEmailEdit=0x7f09005c;
         public static final int codeConfirmationEmailTxt=0x7f09005a;
-        public static final int codeConfirmationSMSEdit=0x7f09005d;
+        public static final int codeConfirmationSMSEdit=0x7f09005f;
         public static final int codeConfirmationSMSTxt=0x7f09005e;
         public static final int collapseActionView=0x7f090017;
         public static final int content=0x7f090057;
@@ -1422,7 +1422,7 @@ containing a value of this type.
         public static final int nbPointsStats=0x7f090078;
         public static final int nbPointsStatsTxt=0x7f090077;
         public static final int never=0x7f090019;
-        public static final int newConfirmationCode=0x7f09005f;
+        public static final int newConfirmationCode=0x7f09005d;
         public static final int new_user=0x7f09004e;
         public static final int none=0x7f09000e;
         public static final int normal=0x7f09000a;
