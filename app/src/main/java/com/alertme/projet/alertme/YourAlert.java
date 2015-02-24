@@ -22,7 +22,6 @@ import android.widget.Spinner;
 import com.alerTodo.slidingmenu.HomeFragment;
 import com.alerTodo.slidingmenu.MyAccountFragment;
 import com.alerTodo.slidingmenu.NewAlertFragment;
-import com.alerTodo.slidingmenu.NewCategorieFragment;
 import com.alerTodo.slidingmenu.adapter.NavDrawerListAdapter;
 import com.alerTodo.slidingmenu.model.NavDrawerItem;
 
@@ -71,12 +70,10 @@ public class YourAlert extends ActionBarActivity {
         //adding nav drawer items to array
         //home
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[0],navMenuIcons.getResourceId(0,-1)));
-        //new categorie
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[1],navMenuIcons.getResourceId(1,-1)));
         //new alerte
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[2],navMenuIcons.getResourceId(2,-1)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[1],navMenuIcons.getResourceId(1,-1)));
         //mon compte
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[3],navMenuIcons.getResourceId(3,-1)));
+        navDrawerItems.add(new NavDrawerItem(navMenuTitles[2],navMenuIcons.getResourceId(2,-1)));
 
         //Recycle the typed array
         navMenuIcons.recycle();
@@ -132,12 +129,9 @@ public class YourAlert extends ActionBarActivity {
                 fragment = new HomeFragment();
                 break;
             case 1:
-                fragment = new NewCategorieFragment();
-                break;
-            case 2:
                 fragment = new NewAlertFragment();
                 break;
-            case 3:
+            case 2:
                 fragment = new MyAccountFragment();
                 break;
             default:

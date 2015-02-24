@@ -28,6 +28,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
     private List<String> _listDataChild;
     Spinner choiceNewCode;
     private TextView alertCreate,cateCreate,cateShare,point;
+    private static final int MAXNBR= 500;
 
 
     public ExpandableListAdapter(Context context, List<String> listDataHeader, List<String> listDataChild){
@@ -98,7 +99,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                     convertView = inflater.inflate(R.layout.fragment_confirmations,null);
                     choiceNewCode =(Spinner) convertView.findViewById(R.id.choiceNewConfirmationCode);
 
-                    String[] lChoice = {"E-mail","SMS"};
+                    String[] lChoice = {"","E-mail","SMS"};
 
                     ArrayAdapter<String> dataAdapterR = new ArrayAdapter<String>(this._context,android.R.layout.simple_spinner_item,lChoice);
                     dataAdapterR.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -109,10 +110,10 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
                 case 2:
                     convertView = inflater.inflate(R.layout.fragment_stats, null);
                     // number aleatoire for test
-                    int nbAlertCreate = 0 + nbRandom.nextInt(500 - 0);
-                    int nbCategorieCreate = 0 + nbRandom.nextInt(500 - 0);
-                    int nbCategorieShare = 0 + nbRandom.nextInt(500 - 0);
-                    int nbPoint = 0 + nbRandom.nextInt(500 - 0);
+                    int nbAlertCreate = 0 + nbRandom.nextInt(MAXNBR - 0);
+                    int nbCategorieCreate = 0 + nbRandom.nextInt(MAXNBR - 0);
+                    int nbCategorieShare = 0 + nbRandom.nextInt(MAXNBR - 0);
+                    int nbPoint = 0 + nbRandom.nextInt(MAXNBR - 0);
 
                     alertCreate = (TextView) convertView.findViewById(R.id.nbAlerteCreateStats);
                     alertCreate.setText(String.valueOf(nbAlertCreate));
