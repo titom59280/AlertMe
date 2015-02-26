@@ -7,7 +7,9 @@ import android.app.DialogFragment;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -16,6 +18,23 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Home extends Activity {
@@ -28,6 +47,10 @@ public class Home extends Activity {
     private SharedPreferences.Editor loginPrefsEditor;
     private boolean saveLogin;
     private TextView newUser;
+    public final static String URL = "http://10.13.1.105:8080/public/login";
+    public final static String EXTRA_MESSAGE = "com.example.testWebService.MESSAGE";
+    public String loginInit = "";
+    public String passInit = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +80,6 @@ public class Home extends Activity {
 
                 username = loginText.getText().toString();
                 password = mdpText.getText().toString();
-
                 if(remenberMe.isChecked()){
                     loginPrefsEditor.putBoolean("saveLogin",true);
                     loginPrefsEditor.putString("username",username);
@@ -67,7 +89,14 @@ public class Home extends Activity {
                     loginPrefsEditor.clear();
                     loginPrefsEditor.commit();
                 }
-                checkLogin(username,password);
+                //checkLogin(username,password);
+
+                if(username != null&& password != null){
+                    loginInit = username;
+                    passInit = password;
+                    verifyLogin();
+                    //new CallAPI().execute(URL);
+                }
 
             }
         });
@@ -82,19 +111,11 @@ public class Home extends Activity {
     }
 
 
-    public void checkLogin(String login, String password){
-        if(login.equals("test")&& password.equals("test")){
-            Intent intent = new Intent(Home.this,YourAlert.class);
-            startActivity(intent);
+    public void verifyLogin(){
+       if(loginInit != null&& passInit != null){
+            new CallAPI().execute(URL);
         }
-        else{
-             DialogFragment newFragment = new CreateUserFragment();
-             newFragment.show(getFragmentManager(),"create");
-             newFragment.setCancelable(false);
-        }
-
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -110,11 +131,87 @@ public class Home extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    private class CallAPI extends AsyncTask<String, String, String> {
+        @Override
+        protected String doInBackground(String... params) {
+            String url = URL;
+
+            HttpClient hclient = new DefaultHttpClient();
+            HttpPost hpost = new HttpPost(url);
+            List<NameValuePair> nameValuePairs = new ArrayList<>(2);
+            nameValuePairs.add(new BasicNameValuePair("login", loginInit));
+            nameValuePairs.add(new BasicNameValuePair("password", passInit));
+
+            InputStream inStream = null;
+            String result =null;
+            try{
+                hpost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+                HttpResponse hresponse = hclient.execute(hpost);
+                Log.v("Alert", "response is back");
+                HttpEntity entity = hresponse.getEntity();
+                inStream = entity.getContent();
+                BufferedReader reader = new BufferedReader(new InputStreamReader(inStream, "UTF-8"));
+                StringBuilder sBuilder = new StringBuilder();
+                String line = null;
+                while((line = reader.readLine()) !=null){
+                    sBuilder.append(line +"\n");
+                }
+                result = sBuilder.toString();
+                Log.v("ALERT", "string built already");
+            }catch(Exception e){
+                e.printStackTrace();
+            }
+            finally {
+                try{
+                    if(inStream!=null){
+                        inStream.close();
+                    }
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+            }
+            Log.v("ALERT", result);
+            return result;
+        }
+
+        protected void onPostExecute(String result) {
+
+            super.onPostExecute(result);
+            JSONObject jobject = null;
+            Log.v("ALERT",result);
+            String message = "";
+
+            try{
+                jobject = new JSONObject(result);
+                message = jobject.getString("message");
+
+            }
+            catch(JSONException e){
+                Log.v("ALERT", result);
+            }
+
+            if(message!=null&&message.equals("User exist"))
+            {
+                Intent intent = new Intent(Home.this,YourAlert.class);
+                startActivity(intent);
+            }
+            else if(message!=null&&message.equals("User does not exist"))
+            {
+                DialogFragment newFragment = new CreateUserFragment();
+                newFragment.show(getFragmentManager(),"create");
+                newFragment.setCancelable(false);
+            }
+            else
+            {
+                Log.v("ALERT","problem with the webService");
+            }
+
+        }
     }
 }

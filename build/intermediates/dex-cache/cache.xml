@@ -9,6 +9,20 @@
         <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\classes-3ad44fb216f2881f0291f07035d072f5676a5c3d.jar" />
     </item>
     <item
+        jar="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\exploded-aar\me.grantland\autofittextview\0.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81db45283d36bfc6e3380c325fb09b2283f36775">
+        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\classes-1673792513c5cd867efcbd226e3b7dc8746820a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies-b95499adb00bb8d5af3e55f2d7722a06f0a40dcc.jar" />
+    </item>
+    <item
         jar="C:\Users\tgraveleine\Documents\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.1"

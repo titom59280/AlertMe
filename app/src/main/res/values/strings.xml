@@ -55,7 +55,6 @@
     <!--Item volet navigation-->
     <string-array name="nav_drawer_items">
         <item>Mes Alertes</item>
-        <item>Nouvelle Categorie</item>
         <item>Nouvelle Alerte</item>
         <item>Mon Compte</item>
     </string-array>
@@ -76,9 +75,6 @@
     <!--new alert fragment-->
     <string name="title_new_alert_fragment">Nouvelle Alerte</string>
 
-    <!--new categorie fragment-->
-    <string name="title_new_category_fragment">Nouvelle Categorie</string>
-
     <!--my account fragment-->
     <string name="title_my_account_fragment">Mon Compte</string>
 
@@ -98,6 +94,18 @@
     <string name="statCategoriesShare">Nombre de catégories partagées</string>
     <string name="statPoints">Nombre de points</string>
 
+
+    <!--New Alert fragment-->
+    <string name="categoryChoice">Choissisez la categorie</string>
+    <string name="title">Titre de l\'alerte</string>
+    <string name="content">Contenu</string>
+    <string name="seeTemplates">Voir les modéles</string>
+    <string name="dateAndHourNotif">Date et heure de notification</string>
+    <string name="day">Jour</string>
+    <string name="month">Mois</string>
+    <string name="year">Année</string>
+    <string name="hour">Heure</string>
+    <string name="minute">Minutes</string>
 
 
 
