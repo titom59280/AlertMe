@@ -10,7 +10,6 @@
     </array>
     <string-array name="nav_drawer_items">
         <item>Mes Alertes</item>
-        <item>Nouvelle Categorie</item>
         <item>Nouvelle Alerte</item>
         <item>Mon Compte</item>
     </string-array>
@@ -99,6 +98,7 @@
     <declare-styleable name="ActionMenuView"/>
     <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/><attr format="reference" name="closeItemLayout"/></declare-styleable>
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
+    <declare-styleable name="AutofitTextView"><attr format="dimension" name="minTextSize"/><attr format="float" name="precision"/><attr format="boolean" name="sizeToFit"/></declare-styleable>
     <declare-styleable name="CompatTextView"><attr format="reference|boolean" name="textAllCaps"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="topBottomBarArrowSize"/><attr format="dimension" name="middleBarArrowSize"/><attr format="dimension" name="barSize"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
@@ -199,9 +199,11 @@
     <string name="action_settings">Settings</string>
     <string name="app_name">Alert Me</string>
     <string name="cancel">Annuler</string>
+    <string name="categoryChoice">Choissisez la categorie</string>
     <string name="codeConfirmationEmail">Code confirmation E-mail</string>
     <string name="codeConfirmationSms">Code confirmation SMS</string>
     <string name="confirmations">Confirmations</string>
+    <string name="content">Contenu</string>
     <string name="contentPart1EmailConfirmDialog">Un Email vous sera envoyer afin de confirmer votre adresse Email.</string>
     <string name="contentPart1NoneConfirmDialog">Vous avez décider de ne pas recevoir d\'alertes par SMS ni email. Vous pourez toujours modifier ce choix dans l\'espace "Votre compte".</string>
     <string name="contentPart1PhoneAndEmailConfirmDialog">Un Email ainsi qu\'un SMS vous sera envoyer afin de confirmer vos informations.</string>
@@ -218,6 +220,8 @@
     <string name="createUserMessagePart3">{fa-caret-right} cliquez sur \"créer\" à l\'affichage de la pop-up</string>
     <string name="createUserTitle">Nouvel utilisateur !</string>
     <string name="create_new_user_title">Inscription !</string>
+    <string name="dateAndHourNotif">Date et heure de notification</string>
+    <string name="day">Jour</string>
     <string name="desc_list_item_icon">Item Icon</string>
     <string name="drawer_close">Slider Menu Closed</string>
     <string name="drawer_open">Slider Menu Opened</string>
@@ -226,8 +230,11 @@
     <string name="hintMdp">Mot de passe</string>
     <string name="hintPhone">Téléphone</string>
     <string name="hintUsername">Nom d\'utilisateur</string>
+    <string name="hour">Heure</string>
     <string name="menu_title">Menu</string>
     <string name="messageSettingPage1">Prenez quelques secondes afin de configurer l\'application</string>
+    <string name="minute">Minutes</string>
+    <string name="month">Mois</string>
     <string name="newConfirCode">Recevoir un nouveau code de confirmation</string>
     <string name="new_user">Pas encore de compte ?</string>
     <string name="next">Suivant</string>
@@ -238,12 +245,14 @@
     <string name="previous">précédent</string>
     <string name="save">Enregister</string>
     <string name="saveLogin">Se souvenir de moi</string>
+    <string name="seeTemplates">Voir les modéles</string>
     <string name="settings">Réglages</string>
     <string name="statAlertCreate">Nombre d\'alertes créées</string>
     <string name="statCategoriesCreate">Nombre de catégories créées</string>
     <string name="statCategoriesShare">Nombre de catégories partagées</string>
     <string name="statPoints">Nombre de points</string>
     <string name="stats">Statistiques</string>
+    <string name="title">Titre de l\'alerte</string>
     <string name="titleConfirmDialog">Confirmation !</string>
     <string name="title_activity_accept_category_from_community">AcceptCategoryFromCommunity</string>
     <string name="title_activity_activity_setting_email_phone">activity_setting_email_phone</string>
@@ -253,12 +262,12 @@
     <string name="title_choice_other_categories">Catégories de la communauté</string>
     <string name="title_my_account_fragment">Mon Compte</string>
     <string name="title_new_alert_fragment">Nouvelle Alerte</string>
-    <string name="title_new_category_fragment">Nouvelle Categorie</string>
     <string name="txtAcceptNotifEmail">Accepter les notifications par E-mail</string>
     <string name="txtAcceptNotifPhone">Accepter les notifications par SMS</string>
     <string name="unknowUserMessage">Ce compte utilisateur n\'existe pas. Voulez vous le créer ?</string>
     <string name="valider">Valider</string>
     <string name="welcome">Bienvenue</string>
+    <string name="year">Année</string>
     <string name="yes">Oui</string>
     <!-- From: file:/C:/Users/tgraveleine/Documents/docsEfficom/alerTodo/app/src/main/res/values/styles.xml -->
     <eat-comment/>
