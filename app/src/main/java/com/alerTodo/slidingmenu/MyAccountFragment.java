@@ -1,7 +1,6 @@
 package com.alerTodo.slidingmenu;
 
 import android.app.Fragment;
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -9,20 +8,17 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ExpandableListView;
-import android.widget.Spinner;
 
-import com.alerTodo.expandablemenu.ExpandableListAdapter;
+import com.alerTodo.expandablemenu.MyAccountExpandableListAdapter;
 import com.alertme.projet.alertme.R;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class MyAccountFragment extends Fragment {
 
-    ExpandableListAdapter listAdapter;
+    MyAccountExpandableListAdapter listAdapter;
     ExpandableListView expListView;
     List<String> listDataHeader;
     List<String> listDataChild;
@@ -41,7 +37,7 @@ public class MyAccountFragment extends Fragment {
 
         prepareListData();
 
-        listAdapter = new ExpandableListAdapter(getActivity(),listDataHeader,listDataChild);
+        listAdapter = new MyAccountExpandableListAdapter(getActivity(),listDataHeader,listDataChild);
 
         //setting list adapter
         expListView.setAdapter(listAdapter);

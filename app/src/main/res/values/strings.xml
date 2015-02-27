@@ -102,11 +102,37 @@
     <string name="seeTemplates">Voir les modéles</string>
     <string name="dateAndHourNotif">Date et heure de notification</string>
     <string name="day">Jour</string>
+    <string name="week">Semaine</string>
     <string name="month">Mois</string>
     <string name="year">Année</string>
     <string name="hour">Heure</string>
     <string name="minute">Minutes</string>
+    <string name="standard">Paramètres standard</string>
+    <string name="advanced">Paramètres avancés</string>
+    <string name="repeat">Récurrences</string>
+    <string name="exceptions">Exceptions</string>
+    <string name="chooseExceptions">Definir des Exceptions</string>
+    <string name="hintRepeat">Tous les</string>
+    <string name="monday">Lundi</string>
+    <string name="tuesday">Mardi</string>
+    <string name="wenesday">Mercredi</string>
+    <string name="thursday">Jeudi</string>
+    <string name="friday">Vendredi</string>
+    <string name="saturday">Samedi</string>
+    <string name="sunday">Dimanche</string>
 
+    <string name="january">Janvier</string>
+    <string name="february">Fevrier</string>
+    <string name="march">Mars</string>
+    <string name="april">Avril</string>
+    <string name="may">Mai</string>
+    <string name="june">Juin</string>
+    <string name="july">Juillet</string>
+    <string name="august">Aout</string>
+    <string name="september">Septembre</string>
+    <string name="october">Octobre</string>
+    <string name="november">Novembre</string>
+    <string name="december">Decembre</string>
 
 
 

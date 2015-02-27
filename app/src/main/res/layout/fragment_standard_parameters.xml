@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CategoryChoiceNewAlertFragment"
+            android:textSize="17dip"
+            android:text="@string/categoryChoice"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="5dp"/>
+
+        <Spinner
+            android:layout_width="165dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="37dp"
+            android:id="@+id/choiceCategory"
+            android:layout_marginBottom="-5dp"
+            android:layout_alignLeft="@+id/CategoryChoiceNewAlertFragment"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AlertTitleNewAlertFragment"
+            android:textSize="17dip"
+            android:text="@string/title"
+            android:textColor="@color/black"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="5dp"/>
+
+        <EditText
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/alertTitle"
+            android:background="@drawable/edittext_top_bg"
+            android:paddingTop="5dp"
+            android:padding="10dp"
+            android:inputType="textNoSuggestions"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1.0"
+            android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/NewAlertContentFragment"
+            android:textSize="17dip"
+            android:text="@string/content"
+            android:textColor="@color/black"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="15dp"
+            android:paddingLeft="5dp"
+            android:layout_marginTop="-10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:id="@+id/editText"
+            android:background="@drawable/edittext_top_bg"
+            android:padding="5dp"
+            android:inputType="textMultiLine"
+            android:layout_weight="1.01"
+            android:layout_alignTop="@+id/linearLayout4"
+            android:layout_alignRight="@+id/txtLabel"
+            android:layout_alignEnd="@+id/txtLabel"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="-60dp"
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:id="@+id/seeTemplates"
+            android:textSize="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/button_default_bg"
+            android:text="@string/seeTemplates"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout4"
+        android:id="@+id/linearLayout5"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="39dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+
+            android:textAlignment="center"
+            android:text="@string/dateAndHourNotif"/>
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:id="@+id/dayNotif"
+            android:calendarViewShown="false"
+            android:layout_marginTop="5dp"
+            android:datePickerMode="spinner"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/linearLayout7"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

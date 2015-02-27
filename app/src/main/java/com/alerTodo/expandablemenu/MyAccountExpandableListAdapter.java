@@ -21,7 +21,7 @@ import java.util.Random;
 /**
  * Created by tgraveleine on 03/02/2015.
  */
-public class ExpandableListAdapter extends BaseExpandableListAdapter {
+public class MyAccountExpandableListAdapter extends BaseExpandableListAdapter {
 
     private Context _context;
     private List<String> _listDataHeader;//titles
@@ -31,7 +31,7 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
     private static final int MAXNBR= 500;
 
 
-    public ExpandableListAdapter(Context context, List<String> listDataHeader, List<String> listDataChild){
+    public MyAccountExpandableListAdapter(Context context, List<String> listDataHeader, List<String> listDataChild){
         this._context = context;
         this._listDataChild = listDataChild;
         this._listDataHeader = listDataHeader;
