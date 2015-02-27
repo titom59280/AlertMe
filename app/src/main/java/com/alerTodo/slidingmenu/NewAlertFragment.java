@@ -8,49 +8,90 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
-import android.widget.DatePicker;
-import android.widget.Spinner;
+import android.widget.ExpandableListView;
 
+import com.alerTodo.expandablemenu.ExceptionExpandableListAdapter;
+import com.alerTodo.expandablemenu.MyAccountExpandableListAdapter;
+import com.alerTodo.expandablemenu.NewAlertExpandableListAdapter;
 import com.alertme.projet.alertme.R;
 
-import java.util.Calendar;
-import java.util.GregorianCalendar;
+import java.util.ArrayList;
+import java.util.List;
 
 public class NewAlertFragment extends Fragment {
 
     public NewAlertFragment(){}
-    private Spinner choiceCategory;
-    private DatePicker dayNotif;
-
-    private int year;
-    private int month;
-    private int day;
+    NewAlertExpandableListAdapter listAdapter;
+    ExceptionExpandableListAdapter exceptionListAdapter;
+    ExpandableListView expListView, expExceptionListView;
+    List<String> listDataHeader, listDataHeaderException;
+    List<String> listDataChild,listDataChildException;
+    private int lastExpandedGroupPosition = -1;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View rootView = inflater.inflate(R.layout.fragment_new_alert,container,false);
+
+        View excRootView = inflater.inflate(R.layout.fragment_advanced_parameters,container,false);
         setHasOptionsMenu(true);
 
-        choiceCategory = (Spinner) rootView.findViewById(R.id.choiceCategory);
-        String[] choice = {"","Personnel", "Professionnel", "Administratif"};
+        expListView = (ExpandableListView) rootView.findViewById(R.id.expandMenuNewAlertFragment);
 
-        ArrayAdapter<String> dataAdapterR = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_spinner_item,choice);
-        dataAdapterR.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        if(choiceCategory!=null) {
-            choiceCategory.setAdapter(dataAdapterR);
-        }
+        expExceptionListView = (ExpandableListView) excRootView.findViewById(R.id.expandMenuExceptionFragment);
+        prepareListData();
 
-        final Calendar cal = GregorianCalendar.getInstance();
-        year = cal.get(Calendar.YEAR);
-        month = cal.get(Calendar.MONTH);
-        day = cal.get(Calendar.DAY_OF_MONTH);
+        listAdapter = new NewAlertExpandableListAdapter(getActivity(),listDataHeader,listDataChild);
 
-        dayNotif = (DatePicker) rootView.findViewById(R.id.dayNotif);
-        dayNotif.init(year, month, day,null);
+        exceptionListAdapter = new ExceptionExpandableListAdapter(getActivity(),listDataHeaderException,listDataChildException);
+
+        //setting list adapter
+
+        expExceptionListView.setAdapter(exceptionListAdapter);
+        expExceptionListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
+            @Override
+            public void onGroupExpand(int groupPosition) {
+                if(lastExpandedGroupPosition != -1 && groupPosition != lastExpandedGroupPosition){
+                    expExceptionListView.collapseGroup(lastExpandedGroupPosition);
+
+                }
+                lastExpandedGroupPosition = groupPosition;
+            }
+        });
+
+        expListView.setAdapter(listAdapter);
+        expListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
+            @Override
+            public void onGroupExpand(int groupPosition) {
+                if(lastExpandedGroupPosition != -1 && groupPosition != lastExpandedGroupPosition){
+                    expListView.collapseGroup(lastExpandedGroupPosition);
+
+                }
+                lastExpandedGroupPosition = groupPosition;
+            }
+        });
 
 
         return rootView;
+    }
+
+    private void prepareListData(){
+        listDataHeader = new ArrayList<String>();
+        listDataHeaderException = new ArrayList<String>();
+        listDataChild = new ArrayList<String>();
+        listDataChildException = new ArrayList<String>();
+
+        //adding header data
+        listDataHeader.add(getText(R.string.standard).toString());
+        listDataHeader.add(getText(R.string.advanced).toString());
+
+        listDataHeaderException.add(getText(R.string.day).toString());
+        listDataHeaderException.add(getText(R.string.month).toString());
+
+
+        listDataChild.add(listDataHeader.get(0));
+
+        listDataChildException.add(listDataHeaderException.get(0));
+
     }
 
     @Override
