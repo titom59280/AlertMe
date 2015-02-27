@@ -155,15 +155,36 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:id="@+id/linearLayout7"
-        android:gravity="center"
         android:orientation="horizontal"
         android:weightSum="1"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/linearLayout5"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
 
+            android:textAlignment="center"
+            android:text="@string/share"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="0.31" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/share"
+            android:textOff="@string/no"
+            android:textOn="@string/yes"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="5dp" />
     </LinearLayout>
 
 

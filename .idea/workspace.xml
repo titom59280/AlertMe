@@ -54,6 +54,11 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_standard_parameters.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/new_user.xml">
         <config>
           <theme>@style/AppTheme</theme>
@@ -67,15 +72,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71100d25-5a6f-4452-ad68-1ed5a3194e79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/checkedexception.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/uncheckedexception.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/custom_checkbox_exception.xml" />
-      <change type="DELETED" beforePath="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\src\main\java\com\alerTodo\expandablemenu\ExceptionExpandableListAdapter.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Home.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/NewAlertExpandableListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/NewAlertExpandableListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/NewAlertFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/NewAlertFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/alertme/projet/alertme/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/alertme/projet/alertme/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_advanced_parameters.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_advanced_parameters.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_standard_parameters.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_standard_parameters.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Alert Me.iws" />
@@ -104,133 +103,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Home.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Home.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2514" max-vertical-offset="3179">
-              <caret line="214" column="42" selection-start-line="214" selection-start-column="42" selection-end-line="214" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_advanced_parameters.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_advanced_parameters.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6193078" vertical-offset="153" max-vertical-offset="6885">
-              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-              <folding>
-                <element signature="e#601#617#0" expanded="true" />
-                <element signature="e#907#927#0" expanded="true" />
-                <element signature="e#1789#1809#0" expanded="true" />
-                <element signature="e#2350#2366#0" expanded="true" />
-                <element signature="e#2653#2670#0" expanded="true" />
-                <element signature="e#2945#2963#0" expanded="true" />
-                <element signature="e#3238#3256#0" expanded="true" />
-                <element signature="e#3531#3547#0" expanded="true" />
-                <element signature="e#3822#3840#0" expanded="true" />
-                <element signature="e#4116#4132#0" expanded="true" />
-                <element signature="e#9258#9275#0" expanded="true" />
-                <element signature="e#9589#9607#0" expanded="true" />
-                <element signature="e#9921#9936#0" expanded="true" />
-                <element signature="e#10286#10301#0" expanded="true" />
-                <element signature="e#10615#10628#0" expanded="true" />
-                <element signature="e#10942#10956#0" expanded="true" />
-                <element signature="e#11234#11248#0" expanded="true" />
-                <element signature="e#11910#11926#0" expanded="true" />
-                <element signature="e#12239#12258#0" expanded="true" />
-                <element signature="e#12607#12624#0" expanded="true" />
-                <element signature="e#12937#12955#0" expanded="true" />
-                <element signature="e#13268#13286#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uncheckedexception.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/uncheckedexception.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkedexception.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/checkedexception.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_home.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.555555" vertical-offset="705" max-vertical-offset="1717">
-              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom_checkbox.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/custom_checkbox.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom_checkbox_exception.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/custom_checkbox_exception.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewAlertExpandableListAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/NewAlertExpandableListAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1372" max-vertical-offset="2040">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-              <folding>
-                <element signature="e#4179#4216#0" expanded="true" />
-                <element signature="e#4217#4255#0" expanded="true" />
-                <element signature="e#4256#4295#0" expanded="true" />
-                <element signature="e#4296#4334#0" expanded="true" />
-                <element signature="e#4415#4423#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="fragment_standard_parameters.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_standard_parameters.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.814815" vertical-offset="394" max-vertical-offset="2975">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state vertical-scroll-proportion="-15.148149" vertical-offset="2447" max-vertical-offset="3332">
+              <caret line="168" column="40" selection-start-line="168" selection-start-column="40" selection-end-line="168" selection-end-column="40" />
+              <folding>
+                <element signature="e#825#849#0" expanded="true" />
+                <element signature="e#2207#2222#0" expanded="true" />
+                <element signature="e#3587#3604#0" expanded="true" />
+                <element signature="e#4876#4898#0" expanded="true" />
+                <element signature="e#5546#5572#0" expanded="true" />
+                <element signature="e#6591#6606#0" expanded="true" />
+                <element signature="e#6874#6886#0" expanded="true" />
+                <element signature="e#6914#6927#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_personal_informations.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_informations.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.740741" vertical-offset="3123" max-vertical-offset="3672">
+              <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="207" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37918216" vertical-offset="1479" max-vertical-offset="2550">
+              <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -1292,9 +1204,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/refs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-large/refs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_alert.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/MyAccountExpandableListAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_standard_parameters.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/ExceptionExpandableListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_exceptions_day.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_exceptions_month.xml" />
@@ -1303,6 +1213,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Home.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/custom_checkbox_exception.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_advanced_parameters.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_standard_parameters.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       </list>
     </option>
   </component>
@@ -1357,8 +1269,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1587,6 +1497,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1824,7 +1736,11 @@
       <created>1425041617048</created>
       <updated>1425041617048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Work on new Alert page">
+      <created>1425049936208</created>
+      <updated>1425049936208</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1849,7 +1765,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1868,7 +1784,7 @@
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35744682" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16364606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16364606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2079,7 +1995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2087,7 +2002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="561">
           <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2103,7 +2017,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="306467" max-vertical-offset="347888">
           <caret line="18491" column="0" selection-start-line="18491" selection-start-column="0" selection-end-line="18491" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2118,7 +2031,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="3230">
           <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2129,14 +2041,6 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.72" vertical-offset="1685" max-vertical-offset="2533">
-          <caret line="109" column="47" selection-start-line="109" selection-start-column="47" selection-end-line="109" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -2159,17 +2063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="2040">
           <caret line="95" column="98" selection-start-line="95" selection-start-column="98" selection-end-line="95" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_informations.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2711" max-vertical-offset="3672">
-          <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="207" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -2240,7 +2133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7113594" vertical-offset="1249" max-vertical-offset="22253">
           <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2248,7 +2140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33275864" vertical-offset="11945" max-vertical-offset="36227">
           <caret line="798" column="30" selection-start-line="798" selection-start-column="30" selection-end-line="798" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2268,19 +2159,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1445">
           <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_standard_parameters.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.814815" vertical-offset="394" max-vertical-offset="2975">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2310,15 +2190,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/NewAlertExpandableListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1372" max-vertical-offset="2040">
+        <state vertical-scroll-proportion="0.114583336" vertical-offset="1957" max-vertical-offset="2533">
           <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <element signature="e#4179#4216#0" expanded="true" />
-            <element signature="e#4217#4255#0" expanded="true" />
-            <element signature="e#4256#4295#0" expanded="true" />
-            <element signature="e#4296#4334#0" expanded="true" />
-            <element signature="e#4415#4423#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2329,7 +2203,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+        <state vertical-scroll-proportion="0.059027776" vertical-offset="0" max-vertical-offset="576">
           <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="47" />
           <folding />
         </state>
@@ -2350,7 +2224,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.555555" vertical-offset="705" max-vertical-offset="1717">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1717">
           <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="58" />
           <folding />
         </state>
@@ -2358,7 +2232,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/custom_checkbox.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state vertical-scroll-proportion="0.17708333" vertical-offset="0" max-vertical-offset="576">
           <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
           <folding />
         </state>
@@ -2376,7 +2250,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/custom_checkbox_exception.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state vertical-scroll-proportion="0.14756945" vertical-offset="0" max-vertical-offset="576">
           <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
           <folding />
         </state>
@@ -2387,32 +2261,48 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6193078" vertical-offset="153" max-vertical-offset="6885">
+        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="6885">
           <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_personal_informations.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.740741" vertical-offset="3123" max-vertical-offset="3672">
+          <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="207" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_standard_parameters.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.148149" vertical-offset="2447" max-vertical-offset="3332">
+          <caret line="168" column="40" selection-start-line="168" selection-start-column="40" selection-end-line="168" selection-end-column="40" />
           <folding>
-            <element signature="e#601#617#0" expanded="true" />
-            <element signature="e#907#927#0" expanded="true" />
-            <element signature="e#1789#1809#0" expanded="true" />
-            <element signature="e#2350#2366#0" expanded="true" />
-            <element signature="e#2653#2670#0" expanded="true" />
-            <element signature="e#2945#2963#0" expanded="true" />
-            <element signature="e#3238#3256#0" expanded="true" />
-            <element signature="e#3531#3547#0" expanded="true" />
-            <element signature="e#3822#3840#0" expanded="true" />
-            <element signature="e#4116#4132#0" expanded="true" />
-            <element signature="e#9258#9275#0" expanded="true" />
-            <element signature="e#9589#9607#0" expanded="true" />
-            <element signature="e#9921#9936#0" expanded="true" />
-            <element signature="e#10286#10301#0" expanded="true" />
-            <element signature="e#10615#10628#0" expanded="true" />
-            <element signature="e#10942#10956#0" expanded="true" />
-            <element signature="e#11234#11248#0" expanded="true" />
-            <element signature="e#11910#11926#0" expanded="true" />
-            <element signature="e#12239#12258#0" expanded="true" />
-            <element signature="e#12607#12624#0" expanded="true" />
-            <element signature="e#12937#12955#0" expanded="true" />
-            <element signature="e#13268#13286#0" expanded="true" />
+            <element signature="e#825#849#0" expanded="true" />
+            <element signature="e#2207#2222#0" expanded="true" />
+            <element signature="e#3587#3604#0" expanded="true" />
+            <element signature="e#4876#4898#0" expanded="true" />
+            <element signature="e#5546#5572#0" expanded="true" />
+            <element signature="e#6591#6606#0" expanded="true" />
+            <element signature="e#6874#6886#0" expanded="true" />
+            <element signature="e#6914#6927#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37918216" vertical-offset="1479" max-vertical-offset="2550">
+          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

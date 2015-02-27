@@ -97,6 +97,7 @@
 
     <!--New Alert fragment-->
     <string name="categoryChoice">Choissisez la categorie</string>
+    <string name="share">Partager l\'alerte</string>
     <string name="title">Titre de l\'alerte</string>
     <string name="content">Contenu</string>
     <string name="seeTemplates">Voir les modéles</string>
