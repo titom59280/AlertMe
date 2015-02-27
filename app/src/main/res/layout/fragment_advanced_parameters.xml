@@ -6,7 +6,8 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/linearLayout1">
+            android:id="@+id/linearLayout1"
+            android:weightSum="1">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -16,17 +17,21 @@
             android:textSize="16dp"/>
 
         <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="75dp"
+            android:gravity="center"
+            android:layout_height="41dp"
             android:hint="@string/hintRepeat"
+            android:textSize="16dp"
             android:background="@drawable/edittext_top_bg"
-            android:layout_marginLeft="50dp"/>
+            android:layout_marginLeft="40dp" />
 
         <Spinner
-            android:layout_width="80dp"
-            android:layout_marginLeft="50dp"
+            android:layout_width="100dp"
+            android:id="@+id/choiceRepeat"
+            android:layout_marginLeft="40dp"
             android:layout_height="wrap_content"
-            android:spinnerMode="dropdown"/>
+            android:spinnerMode="dropdown"
+            android:layout_weight="0.46" />
         </LinearLayout>
 
     <LinearLayout
@@ -44,9 +49,352 @@
             android:layout_marginLeft="5dp"
             android:textSize="16dp"/>
     </LinearLayout>
-    <ExpandableListView
-        android:id="@+id/expandMenuExceptionFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/linearLayout2" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/monday"
+                android:textColor="@color/black"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/tuesday"
+            android:textColor="@color/black"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/wenesday"
+            android:textColor="@color/black"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/thursday"
+            android:textColor="@color/black"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/friday"
+            android:textColor="@color/black"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/saturday"
+            android:textColor="@color/black"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/sunday"
+            android:textColor="@color/black"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout3">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkboxMonday"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_marginLeft="5dp"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkboxTuesday"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:button="@drawable/custom_checkbox_exception"
+            android:id="@+id/checkboxWednesday"
+            android:layout_height="wrap_content"
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkboxThursday"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_marginLeft="25dp"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/checkboxFriday"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkboxSaturday"
+            android:layout_marginLeft="25dp"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/checkboxSunday"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout6"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_checkbox_exception"
+            android:id="@+id/checkBoxJanuary"
+            android:layout_marginLeft="20dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkBoxFebruary"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_marginLeft="30dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/checkBoxMarch"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkBoxApril"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:button="@drawable/custom_checkbox_exception"
+            android:id="@+id/checkBoxMay"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkBoxJune"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/custom_checkbox_exception"
+            android:id="@+id/checkBoxJuly"
+            android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout8"
+        android:orientation="horizontal"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/january"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/february"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/march"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="16dp"
+            android:text="@string/april"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="16dp"
+            android:text="@string/may"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="16dp"
+            android:text="@string/june"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/july"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout9"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_centerHorizontal="true">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/august"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/september"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="16dp"
+            android:text="@string/october"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="16dp"
+            android:text="@string/november"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="16dp"
+            android:text="@string/december"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout10"
+        android:orientation="horizontal"
+        android:button="@drawable/custom_checkbox_exception"
+        android:layout_below="@+id/linearLayout9"
+        android:layout_centerHorizontal="true">
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkBoxAugust"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/checkBoxSeptember"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkBoxOctober"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_marginLeft="40dp"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:button="@drawable/custom_checkbox_exception"
+            android:id="@+id/checkBoxNovember"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:id="@+id/checkBoxDecember"
+            android:button="@drawable/custom_checkbox_exception"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
 </RelativeLayout>

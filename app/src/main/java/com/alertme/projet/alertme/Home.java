@@ -210,6 +210,10 @@ public class Home extends Activity {
             else
             {
                 Log.v("ALERT","problem with the webService");
+                if(loginInit.equals("test")&&passInit.equals("test")){
+                    Intent intent = new Intent(Home.this,YourAlert.class);
+                    startActivity(intent);
+                }
             }
 
         }

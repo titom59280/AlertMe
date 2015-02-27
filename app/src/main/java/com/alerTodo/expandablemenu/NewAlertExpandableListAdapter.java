@@ -14,10 +14,8 @@ import android.widget.TextView;
 
 import com.alertme.projet.alertme.R;
 
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
-import java.util.Random;
 
 /**
  * Created by tgraveleine on 03/02/2015.
@@ -28,22 +26,16 @@ public class NewAlertExpandableListAdapter extends BaseExpandableListAdapter {
     private List<String> _listDataHeader;//titles
     private List<String> _listDataChild;
 
-    private int lastExpandedGroupPosition = -1;
-    List<String> listDataHeaderException;
-    List<String>listDataChildException;
-    private Spinner choiceCategory;
-    private Spinner choiceRepeatSpinner;
-    private DatePicker dayNotif;
 
-    ExceptionExpandableListAdapter exceptionListAdapter;
-    ExpandableListView expExceptionListView;
+    private Spinner choiceCategory, choiceRepeatSpinner;
+    private DatePicker dayNotif;
 
     private int year;
     private int month;
     private int day;
 
 
-    public NewAlertExpandableListAdapter(Context context, List<String> listDataHeader, List<String> listDataChild){
+    public NewAlertExpandableListAdapter(Context context, List<String> listDataHeader, List<String> listDataChild) {
         this._context = context;
         this._listDataChild = listDataChild;
         this._listDataHeader = listDataHeader;
@@ -87,9 +79,9 @@ public class NewAlertExpandableListAdapter extends BaseExpandableListAdapter {
     @Override
     public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
         String headerTitle = (String) getGroup(groupPosition);
-        if(convertView == null){
+        if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) this._context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.list_group,null);
+            convertView = inflater.inflate(R.layout.list_group, null);
         }
 
         TextView lbListHeader = (TextView) convertView.findViewById(R.id.lbListHeaderMyAccountFragment);
@@ -102,42 +94,42 @@ public class NewAlertExpandableListAdapter extends BaseExpandableListAdapter {
     public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
 
 
-            LayoutInflater inflater = (LayoutInflater) this._context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            switch (groupPosition){
-                case 0:
-                    convertView = inflater.inflate(R.layout.fragment_standard_parameters, null);
-                    choiceCategory = (Spinner) convertView.findViewById(R.id.choiceCategory);
-                    //choiceRepeatSpinner = (Spinner) rootView.findViewById(R.id.choiceRepeatMode);
-                    String[] choice = {"","Personnel", "Professionnel", "Administratif"};
-                    //String[] choiceRepeat = {"", getString(R.string.day),getString(R.string.week),getString(R.string.month),getString(R.string.year)};
+        LayoutInflater inflater = (LayoutInflater) this._context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        switch (groupPosition) {
+            case 0:
+                convertView = inflater.inflate(R.layout.fragment_standard_parameters, null);
+                choiceCategory = (Spinner) convertView.findViewById(R.id.choiceCategory);
 
-                    /*ArrayAdapter<String> dataAdapterRepeat = new ArrayAdapter<String>(getActivity(),android.R.layout.simple_spinner_item,choiceRepeat);
+                String[] choice = {"", "Personnel", "Professionnel", "Administratif"};
+
+                ArrayAdapter<String> dataAdapterR = new ArrayAdapter<String>(this._context, android.R.layout.simple_spinner_item, choice);
+                dataAdapterR.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                if (choiceCategory != null) {
+                    choiceCategory.setAdapter(dataAdapterR);
+                }
+
+                final Calendar cal = Calendar.getInstance();
+                year = cal.get(Calendar.YEAR);
+                month = cal.get(Calendar.MONTH);
+                day = cal.get(Calendar.DAY_OF_MONTH);
+
+                dayNotif = (DatePicker) convertView.findViewById(R.id.dayNotif);
+                dayNotif.init(year, month, day, null);
+                break;
+            case 1:
+                convertView = inflater.inflate(R.layout.fragment_advanced_parameters, null);
+                choiceRepeatSpinner = (Spinner) convertView.findViewById(R.id.choiceRepeat);
+                String[] choiceRepeat = {"", this._context.getString(R.string.day),this._context.getString(R.string.week),this._context.getString(R.string.month),this._context.getString(R.string.year)};
+
+                    ArrayAdapter<String> dataAdapterRepeat = new ArrayAdapter<String>(this._context,android.R.layout.simple_spinner_item,choiceRepeat);
                     dataAdapterRepeat.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                     if(choiceRepeatSpinner!=null) {
                     choiceRepeatSpinner.setAdapter(dataAdapterRepeat);
-                    }*/
-
-                    ArrayAdapter<String> dataAdapterR = new ArrayAdapter<String>(this._context,android.R.layout.simple_spinner_item,choice);
-                    dataAdapterR.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                    if(choiceCategory!=null) {
-                        choiceCategory.setAdapter(dataAdapterR);
                     }
-
-                    final Calendar cal = Calendar.getInstance();
-                    year = cal.get(Calendar.YEAR);
-                    month = cal.get(Calendar.MONTH);
-                    day = cal.get(Calendar.DAY_OF_MONTH);
-
-                    dayNotif = (DatePicker) convertView.findViewById(R.id.dayNotif);
-                    dayNotif.init(year, month, day,null);
-                    break;
-                case 1:
-                    convertView = inflater.inflate(R.layout.fragment_advanced_parameters,null);
-
-                    break;
-                default:
-                    break;
-            }
+                break;
+            default:
+                break;
+        }
 
 
         return convertView;
