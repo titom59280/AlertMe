@@ -1,18 +1,21 @@
 package com.alerTodo.expandablemenu;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.BaseExpandableListAdapter;
+import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.ExpandableListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.alertme.projet.alertme.R;
+import com.alertme.projet.alertme.YourAlert;
 
 import java.util.Calendar;
 import java.util.List;
@@ -25,6 +28,7 @@ public class NewAlertExpandableListAdapter extends BaseExpandableListAdapter {
     private Context _context;
     private List<String> _listDataHeader;//titles
     private List<String> _listDataChild;
+    private Button seeTemplates;
 
 
     private Spinner choiceCategory, choiceRepeatSpinner;
@@ -94,11 +98,12 @@ public class NewAlertExpandableListAdapter extends BaseExpandableListAdapter {
     public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
 
 
-        LayoutInflater inflater = (LayoutInflater) this._context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        final LayoutInflater inflater = (LayoutInflater) this._context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         switch (groupPosition) {
             case 0:
                 convertView = inflater.inflate(R.layout.fragment_standard_parameters, null);
                 choiceCategory = (Spinner) convertView.findViewById(R.id.choiceCategory);
+                seeTemplates = (Button) convertView.findViewById(R.id.seeTemplates);
 
                 String[] choice = {"", "Personnel", "Professionnel", "Administratif"};
 
@@ -115,6 +120,15 @@ public class NewAlertExpandableListAdapter extends BaseExpandableListAdapter {
 
                 dayNotif = (DatePicker) convertView.findViewById(R.id.dayNotif);
                 dayNotif.init(year, month, day, null);
+
+                seeTemplates.setOnClickListener(new View.OnClickListener(){
+
+                    @Override
+                    public void onClick(View v) {
+                        /*Intent intent = new Intent(NewAlertExpandableListAdapter.this,NewAlertTemplatesListAdapter.class);
+                        startActivity(intent);*/
+                    }
+                });
                 break;
             case 1:
                 convertView = inflater.inflate(R.layout.fragment_advanced_parameters, null);

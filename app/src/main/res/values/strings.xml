@@ -47,7 +47,7 @@
     <string name="contentPart3PhoneConfirmDialog">{fa-caret-right} Recopiez le code de confirmation reçu par SMS</string>
     <string name="contentPart3EmailConfirmDialog">{fa-caret-right} Recopiez le code de confirmation reçu par Email</string>
     <string name="save">Enregister</string>
-
+    <string name="go">Continuez</string>
     <!--Volet Navigation-->
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
@@ -121,7 +121,7 @@
     <string name="friday">Vendredi</string>
     <string name="saturday">Samedi</string>
     <string name="sunday">Dimanche</string>
-
+    <string name="explainTemplates">Cliquez sur un texte pour le choisir</string>
     <string name="january">Janvier</string>
     <string name="february">Fevrier</string>
     <string name="march">Mars</string>

@@ -81,6 +81,11 @@
                 android:layout_gravity="center_vertical"/>
             </LinearLayout>
 
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBarHome"
+            style="?android:attr/progressBarStyleSmall"/>
 
         <Button
             android:layout_width="match_parent"

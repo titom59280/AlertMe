@@ -2,53 +2,53 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\classes-3ad44fb216f2881f0291f07035d072f5676a5c3d.jar" />
-    </item>
-    <item
-        jar="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\exploded-aar\me.grantland\autofittextview\0.2.0\classes.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="81db45283d36bfc6e3380c325fb09b2283f36775">
-        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\classes-1673792513c5cd867efcbd226e3b7dc8746820a7.jar" />
-    </item>
-    <item
-        jar="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="e8796346a9191a019e936210a2dc50662c57594b">
-        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies-b95499adb00bb8d5af3e55f2d7722a06f0a40dcc.jar" />
-    </item>
-    <item
-        jar="C:\Users\tgraveleine\Documents\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.1"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ada7e578df48f3a3ab4064f67c03607ad77255a5.jar" />
-    </item>
-    <item
-        jar="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jar="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c344996b27a01077c6e5361d63df451f97303f6b.jar" />
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-0bba5be35c78350f9fa7c07bb43e28be8c6eafb5.jar" />
     </item>
     <item
-        jar="C:\Users\tgraveleine\.gradle\caches\modules-2\files-2.1\com.joanzapata.android\android-iconify\1.0.8\7bba1039e3413ac0c82452b431a4aaa76648f7e9\android-iconify-1.0.8.jar"
+        jar="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.1"
-        sha1="7bba1039e3413ac0c82452b431a4aaa76648f7e9">
-        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\android-iconify-1.0.8-2e82ff6f9cada8463ac3d73d9fbbe922234ba6b3.jar" />
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\pre-dexed\debug\classes-6c827d4c2347a7816bfac1f38e284717810623a9.jar" />
     </item>
     <item
-        jar="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jar="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\exploded-aar\me.grantland\autofittextview\0.2.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="972ca945f0cf5ff0765ab94fa8e1a90661ea197a">
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\pre-dexed\debug\classes-79cbefe51d2c9fa8b3b8854764db3f8299fe049f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\tgraveleine\Documents\docsEfficom\alerTodo\app\build\intermediates\pre-dexed\debug\classes-9c5eeaa897ec4a00514cfb20f07d70d08922f623.jar" />
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\pre-dexed\debug\classes-f62df98922fd63f83597565c6ce5d5e6e3f6cf2f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Thomas\.gradle\caches\modules-2\files-2.1\com.joanzapata.android\android-iconify\1.0.8\7bba1039e3413ac0c82452b431a4aaa76648f7e9\android-iconify-1.0.8.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="7bba1039e3413ac0c82452b431a4aaa76648f7e9">
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\pre-dexed\debug\android-iconify-1.0.8-f2383c3d9a242f2a5f77b29eee69f790b5dea186.jar" />
+    </item>
+    <item
+        jar="C:\Users\Thomas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f04299ee9ba650245ad697b7a24c8d210c7e7b3d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies-4ded08d3b22bd7d132244419f300a01686dd48a2.jar" />
     </item>
 
 </items>

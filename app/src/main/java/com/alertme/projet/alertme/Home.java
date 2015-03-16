@@ -17,18 +17,28 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpPut;
+import org.apache.http.conn.ConnectTimeoutException;
+import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.json.JSONStringer;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -39,7 +49,9 @@ import java.util.List;
 
 public class Home extends Activity {
 
+    public static final int INT = 1000000;
     private String username,password;
+    private ProgressBar progress;
     private Button connexion;
     private EditText loginText,mdpText;
     private CheckBox remenberMe;
@@ -47,7 +59,7 @@ public class Home extends Activity {
     private SharedPreferences.Editor loginPrefsEditor;
     private boolean saveLogin;
     private TextView newUser;
-    public final static String URL = "http://10.13.1.105:8080/public/login";
+    public final static String URL = "http://www.alerTodo.com/account/on";
     public final static String EXTRA_MESSAGE = "com.example.testWebService.MESSAGE";
     public String loginInit = "";
     public String passInit = "";
@@ -57,6 +69,7 @@ public class Home extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        progress = (ProgressBar) findViewById(R.id.progressBarHome);
         connexion = (Button) findViewById(R.id.btnValider);
         loginText = (EditText) findViewById(R.id.username);
         mdpText = (EditText) findViewById(R.id.mdp);
@@ -64,7 +77,7 @@ public class Home extends Activity {
         remenberMe = (CheckBox) findViewById(R.id.saveLoginCheckbox);
         loginPreferences = getSharedPreferences("loginPrefs",MODE_PRIVATE);
         loginPrefsEditor = loginPreferences.edit();
-
+        progress.setVisibility(View.INVISIBLE);
         saveLogin = loginPreferences.getBoolean("saveLogin",false);
         if(saveLogin == true){
             loginText.setText(loginPreferences.getString("username",""));
@@ -77,7 +90,8 @@ public class Home extends Activity {
             public void onClick(View v) {
                 InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
                 imm.hideSoftInputFromWindow(loginText.getWindowToken(), 0);
-
+                progress.setVisibility(View.VISIBLE);
+                connexion.setVisibility(View.INVISIBLE);
                 username = loginText.getText().toString();
                 password = mdpText.getText().toString();
                 if(remenberMe.isChecked()){
@@ -137,22 +151,43 @@ public class Home extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
-    private class CallAPI extends AsyncTask<String, String, String> {
+    private class CallAPI extends AsyncTask<String, Integer, String> {
+
+        @Override
+        protected void onProgressUpdate(Integer... values){
+            progress.setProgress(values[0]);
+
+        }
         @Override
         protected String doInBackground(String... params) {
             String url = URL;
 
-            HttpClient hclient = new DefaultHttpClient();
-            HttpPost hpost = new HttpPost(url);
-            List<NameValuePair> nameValuePairs = new ArrayList<>(2);
-            nameValuePairs.add(new BasicNameValuePair("login", loginInit));
-            nameValuePairs.add(new BasicNameValuePair("password", passInit));
-
             InputStream inStream = null;
             String result =null;
+
             try{
-                hpost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
-                HttpResponse hresponse = hclient.execute(hpost);
+                //HttpPost hpost = new HttpPost(url);
+                HttpPut httpPut = new HttpPut(url);
+                httpPut.setHeader("Content-Type","application/json");
+                HttpParams httpParams = new BasicHttpParams();
+                int timeout =8000;
+                HttpConnectionParams.setConnectionTimeout(httpParams,timeout);
+                int timeoutSocket = 13000;
+                HttpConnectionParams.setSoTimeout(httpParams,timeoutSocket);
+                HttpClient hclient = new DefaultHttpClient(httpParams);
+
+                //List<NameValuePair> nameValuePairs = new ArrayList<>(2);
+                //nameValuePairs.add(new BasicNameValuePair("user", loginInit));
+                //nameValuePairs.add(new BasicNameValuePair("pass", passInit));
+
+                //hpost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+                //httpPut.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+
+                JSONStringer json = new JSONStringer().object().key("user").value(loginInit).key("pass").value(passInit).endObject();
+                StringEntity entityForPut = new StringEntity(json.toString());
+                httpPut.setEntity(entityForPut);
+                HttpResponse hresponse = hclient.execute(httpPut);
+
                 Log.v("Alert", "response is back");
                 HttpEntity entity = hresponse.getEntity();
                 inStream = entity.getContent();
@@ -164,7 +199,14 @@ public class Home extends Activity {
                 }
                 result = sBuilder.toString();
                 Log.v("ALERT", "string built already");
-            }catch(Exception e){
+            }catch(ConnectTimeoutException e){
+                Log.v("ALERT","problem with the webService");
+                if(loginInit.equals("test")&&passInit.equals("test")){
+                    Intent intent = new Intent(Home.this,YourAlert.class);
+                    startActivity(intent);
+                }
+            }
+            catch(Exception e){
                 e.printStackTrace();
             }
             finally {
@@ -176,45 +218,46 @@ public class Home extends Activity {
                     e.printStackTrace();
                 }
             }
-            Log.v("ALERT", result);
             return result;
         }
 
         protected void onPostExecute(String result) {
-
-            super.onPostExecute(result);
-            JSONObject jobject = null;
-            Log.v("ALERT",result);
-            String message = "";
-
-            try{
-                jobject = new JSONObject(result);
-                message = jobject.getString("message");
-
-            }
-            catch(JSONException e){
-                Log.v("ALERT", result);
-            }
-
-            if(message!=null&&message.equals("User exist"))
-            {
-                Intent intent = new Intent(Home.this,YourAlert.class);
-                startActivity(intent);
-            }
-            else if(message!=null&&message.equals("User does not exist"))
-            {
-                DialogFragment newFragment = new CreateUserFragment();
-                newFragment.show(getFragmentManager(),"create");
-                newFragment.setCancelable(false);
-            }
-            else
-            {
+            if(result ==null){
                 Log.v("ALERT","problem with the webService");
+                Toast.makeText(getApplicationContext(),"problème avec le webservice ok pour dev",1000).show();
                 if(loginInit.equals("test")&&passInit.equals("test")){
                     Intent intent = new Intent(Home.this,YourAlert.class);
                     startActivity(intent);
                 }
+            }else{
+                super.onPostExecute(result);
+                JSONObject jobject = null;
+                String message = "";
+
+                try{
+                    jobject = new JSONObject(result);
+                    message = jobject.getString("data");
+
+                }
+                catch(JSONException e){
+                    Log.v("ALERT", result);
+                }
+
+                if(message!=null&&message.equals("DONE"))
+                {
+                    Intent intent = new Intent(Home.this,YourAlert.class);
+                    startActivity(intent);
+                }
+                else if(message!=null&&message.equals("{\"user\":[\"This login does not exist.\"]}")||message.equals("{\"user\":[\"The login or password is false.\"]}"))
+                {
+                    DialogFragment newFragment = new CreateUserFragment();
+                    newFragment.show(getFragmentManager(),"create");
+                    newFragment.setCancelable(false);
+                }
+
             }
+
+
 
         }
     }
