@@ -3,8 +3,10 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <!--<item name="android:actionBarStyle">@style/ActionBar</item>-->
-        <item name="colorPrimary">#18A1E7</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="colorPrimary">@color/grey</item>
+        <item name="android:textColorPrimary">@color/grey</item>
+
 
     </style>
 
@@ -24,7 +26,12 @@
     <!-- ActionBar styles -->
     <style name="ActionBar"
         parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">#18A1E7</item>
+        <item name="android:background">#EDEDED</item>
+        <item name="android:textColorPrimary">#7D888E</item>
+    </style>
+
+    <style name="MySwitch">
+        <item name="android:colorPrimary">@color/action_bar_background</item>
     </style>
 
 

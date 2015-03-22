@@ -222,6 +222,9 @@ public class Home extends Activity {
         }
 
         protected void onPostExecute(String result) {
+
+            progress.setVisibility(View.INVISIBLE);
+            connexion.setVisibility(View.VISIBLE);
             if(result ==null){
                 Log.v("ALERT","problem with the webService");
                 Toast.makeText(getApplicationContext(),"problème avec le webservice ok pour dev",1000).show();

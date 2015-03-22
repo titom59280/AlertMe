@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="action_bar_background">#18A1E7</color>
+    <color name="action_bar_background">#FF851B</color>
     <color name="button_grey">#3f3f3f</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
+    <color name="grey">#7C7C7C</color>
 </resources>

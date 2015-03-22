@@ -2,6 +2,7 @@ package com.alerTodo.slidingmenu;
 
 import android.app.DialogFragment;
 import android.app.Fragment;
+import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -62,7 +63,16 @@ public class HomeFragment extends Fragment {
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new TestAPI().execute();
+                //new TestAPI().execute();
+                FragmentManager fragmentManager = getFragmentManager();
+                Fragment fragment = null;
+                fragment = new NewAlertFragment();
+                fragmentManager.beginTransaction().replace(R.id.frame_container, fragment).commit();
+
+                //update selected item and title then close the drawer
+                //mDrawerList.setItemChecked(position, true);
+                //mDrawerList.setSelection(position);
+                //setTitle(navMenuTitles[position]);
             }
         });
         return rootView;

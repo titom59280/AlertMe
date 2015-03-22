@@ -3,11 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/emailConfirmation">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/codeConfirmationEmailTxt"
+        android:layout_weight="1"
         android:textSize="15dip"
         android:text="@string/codeConfirmationEmail"
         android:textColor="@color/black"
@@ -22,47 +27,57 @@
         android:layout_height="31dp"
         android:id="@+id/codeConfirmationEmailEdit"
         android:inputType="text"
+        android:layout_weight="1"
         android:background="@drawable/edittext_top_bg"
         android:paddingTop="10dp"
         android:padding="10dp"
         android:layout_gravity="right"
-        android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/newConfirmationCode"
-        android:layout_toEndOf="@+id/newConfirmationCode"
         android:layout_marginTop="5dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/codeConfirmationSMSTxt"
-        android:textSize="15dip"
-        android:text="@string/codeConfirmationSms"
-        android:textColor="@color/black"
-        android:paddingTop="10dp"
-        android:paddingBottom="5dp"
-        android:paddingLeft="5dp"
-        android:layout_marginTop="50dp"
-        android:layout_below="@+id/emailMyAccountFragment"
-        android:layout_alignParentLeft="true" />
+        android:id="@+id/smsConfirmation"
+        android:orientation="horizontal"
+        android:layout_below="@id/emailConfirmation">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/codeConfirmationSMSTxt"
+            android:layout_weight="1"
+            android:textSize="15dip"
+            android:text="@string/codeConfirmationSms"
+            android:textColor="@color/black"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:layout_below="@+id/emailMyAccountFragment"
+            android:layout_alignParentLeft="true" />
 
-    <EditText
-        android:layout_width="150dp"
-        android:layout_height="31dp"
-        android:id="@+id/codeConfirmationSMSEdit"
-        android:inputType="text"
-        android:background="@drawable/edittext_top_bg"
-        android:paddingTop="10dp"
-        android:padding="10dp"
-        android:layout_gravity="right"
-        android:layout_alignBottom="@+id/codeConfirmationSMSTxt"
-        android:layout_toRightOf="@+id/newConfirmationCode"
-        android:layout_toEndOf="@+id/newConfirmationCode" />
-
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="31dp"
+            android:id="@+id/codeConfirmationSEdit"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_top_bg"
+            android:paddingTop="10dp"
+            android:padding="10dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layoutSendNewCode"
+        android:layout_below="@id/smsConfirmation">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/newConfirmationCode"
         android:textSize="10dip"
+        android:layout_weight="1"
         android:text="@string/newConfirCode"
         android:textColor="@color/black"
         android:paddingTop="10dp"
@@ -77,22 +92,19 @@
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:id="@+id/choiceNewConfirmationCode"
+        android:layout_weight="1"
         android:layout_alignLeft="@+id/codeConfirmationSMSEdit"
         android:layout_alignTop="@+id/newConfirmationCode"
         android:gravity="center_vertical"
         android:layout_alignBottom="@+id/newConfirmationCode"
         android:spinnerMode="dropdown" />
-
-    <Button
-        android:layout_width="55dp"
-        android:layout_height="5dp"
-        android:id="@+id/sendNewCode"
-        android:text="@string/ok"
-        android:background="@drawable/button_default_bg"
-        android:layout_alignTop="@+id/choiceNewConfirmationCode"
-        android:layout_alignBottom="@+id/choiceNewConfirmationCode"
-        android:layout_alignRight="@+id/codeConfirmationSMSEdit"
-        android:layout_alignEnd="@+id/codeConfirmationSMSEdit" />
-
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="34dp"
+            android:id="@+id/sendNewCode"
+            android:text="@string/ok"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button_default_bg" />
+    </LinearLayout>
 
 </RelativeLayout>

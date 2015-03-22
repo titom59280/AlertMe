@@ -31,6 +31,7 @@
         android:id="@+id/accept_choice"
         android:textOff="@string/no"
         android:textOn="@string/yes"
+        style="@style/MySwitch"
         android:layout_alignTop="@+id/accept_categories"
         android:layout_toEndOf="@+id/accept_categories" />
 

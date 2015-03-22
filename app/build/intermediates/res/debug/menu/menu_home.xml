@@ -1,7 +1,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".Home">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+    <item android:id="@+id/action_settingsHome" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/C:/Users/tgraveleine/Documents/docsEfficom/alerTodo/app/src/main/res/menu/menu_home.xml -->
+<!-- From: file:/C:/Users/Thomas/Documents/projetEfficom/projet%20fin%20annee%20eii/AlertMe/app/src/main/res/menu/menu_home.xml -->

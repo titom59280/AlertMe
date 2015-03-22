@@ -34,6 +34,7 @@ public class ConfirmDialog extends DialogFragment {
         this.contentPart3 = content3;
         this.activityToStart = startActivity;
     }
+
     @Override
     public Dialog onCreateDialog(Bundle saveInstanceState){
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());

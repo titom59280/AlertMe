@@ -9,7 +9,8 @@
         android:text="@string/create_new_user_title"
         android:id="@+id/titleConfirm"
         android:textColor="#fefefe"
-        android:background="#18A1E7"
+        android:background="#FF851B"
+        android:paddingLeft="5dp"
         android:drawableLeft="@drawable/warning"
         android:textAlignment="center"
         android:gravity="center"
@@ -21,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/contentPart1"
+        android:paddingLeft="10dp"
         android:text="@string/createUserMessagePart1"
         android:textColor="#666666"
         android:textSize="18sp"/>
@@ -28,6 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/contentPart2"
+
         android:paddingTop="5dp"
         android:paddingLeft="10dp"
         android:text="@string/createUserMessagePart2"

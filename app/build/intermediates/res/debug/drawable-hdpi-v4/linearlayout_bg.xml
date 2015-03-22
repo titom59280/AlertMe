@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
     <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
-    <solid android:color="#99000000"></solid>
+    <solid android:color="#EDEDED"></solid>
     <corners android:radius="8px"></corners>
-    <stoke android:width="0dp" android:color="#A5C2E0"></stoke>
-    </shape><!-- From: file:/C:/Users/tgraveleine/Documents/docsEfficom/alerTodo/app/src/main/res/drawable-hdpi/linearlayout_bg.xml -->
+    <stroke android:width="2dp" android:color="#BDBDBD"></stroke>
+    </shape><!-- From: file:/C:/Users/Thomas/Documents/projetEfficom/projet%20fin%20annee%20eii/AlertMe/app/src/main/res/drawable-hdpi/linearlayout_bg.xml -->

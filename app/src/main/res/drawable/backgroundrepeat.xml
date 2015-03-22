@@ -1,0 +1,9 @@
+
+
+    <bitmap
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/font"
+        android:tileMode="repeat"
+        android:dither="true" />
+
+

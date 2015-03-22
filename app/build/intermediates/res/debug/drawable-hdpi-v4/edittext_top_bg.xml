@@ -6,7 +6,7 @@
             <solid android:color="#FFFFFF"/>
             <stroke
                 android:width="5dp"
-                android:color="#18A1E7"/>
+                android:color="#FF851B"/>
             <corners
                 android:topLeftRadius="5dp"
                 android:topRightRadius="5dp"
@@ -29,4 +29,4 @@
         </shape>
     </item>
 
-</selector><!-- From: file:/C:/Users/tgraveleine/Documents/docsEfficom/alerTodo/app/src/main/res/drawable-hdpi/edittext_top_bg.xml -->
+</selector><!-- From: file:/C:/Users/Thomas/Documents/projetEfficom/projet%20fin%20annee%20eii/AlertMe/app/src/main/res/drawable-hdpi/edittext_top_bg.xml -->

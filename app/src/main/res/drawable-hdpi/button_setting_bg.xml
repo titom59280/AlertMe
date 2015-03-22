@@ -4,10 +4,10 @@
 
         <shape>
             <solid
-                android:color="#18A1E7"/>
+                android:color="#FF851B"/>
             <stroke
                 android:width="1dp"
-                android:color="#d2d2d2"/>
+                android:color="@color/grey"/>
             <corners
                 android:radius="1dp"/>
         </shape>
@@ -16,11 +16,11 @@
     <item>
         <shape>
             <gradient
-                android:startColor="#3f3f3f"
-                android:endColor="#3f3f3f"
+                android:startColor="@color/grey"
+                android:endColor="@color/grey"
                 android:angle="270"/>
             <stroke
-                android:color="#3f3f3f"
+                android:color="@color/grey"
                 android:width="1dp"/>
             <corners
                 android:radius="1dp"/>

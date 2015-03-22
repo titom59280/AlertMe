@@ -4,12 +4,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.alertme.projet.alertme.SettingWelcomePage">
+    tools:context="com.alertme.projet.alertme.SettingWelcomePage"
+    android:background="@drawable/backgroundrepeat">
     <TextView
         android:text="@string/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/welcome"
+        android:textColor="@color/grey"
         android:textSize="30sp"
         android:layout_marginTop="30dp" />
 
@@ -19,6 +21,7 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:layout_marginTop="69dp"
+        android:textColor="@color/grey"
         android:id="@+id/setting_welcome_message"
         android:layout_below="@+id/welcome"
         android:layout_alignParentStart="true" />
@@ -44,7 +47,7 @@
         android:clickable="false"
         android:textColor="@color/white"
         android:padding="5dp"
-        android:background="@color/button_grey"
+        android:background="@drawable/button_setting_bg"
             android:layout_gravity="bottom" />
 
         <Button

@@ -71,6 +71,7 @@
 
     <!--home fragment-->
     <string name="title_alert_fragment">Mes Alertes</string>
+    <string name="new_alert">Créer une alerte</string>
 
     <!--new alert fragment-->
     <string name="title_new_alert_fragment">Nouvelle Alerte</string>

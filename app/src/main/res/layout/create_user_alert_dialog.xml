@@ -10,7 +10,8 @@
         android:text="@string/createUserTitle"
         android:id="@+id/title"
         android:textColor="#fefefe"
-        android:background="#18A1E7"
+        android:background="#FF851B"
+        android:paddingLeft="10dp"
         android:drawableLeft="@drawable/warning"
         android:textAlignment="center"
         android:gravity="center"
@@ -23,6 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/content"
+
+        android:layout_marginLeft="10dp"
         android:text="@string/unknowUserMessage"
         android:textColor="#666666"
         android:textSize="20sp"

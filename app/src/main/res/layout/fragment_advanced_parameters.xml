@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:layout_marginTop="10dp">
         <LinearLayout
             android:layout_width="fill_parent"
@@ -12,6 +12,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/repeat"
+            android:layout_weight="0.35"
             android:textColor="@color/black"
             android:layout_marginLeft="5dp"
             android:textSize="16dp"/>
@@ -20,10 +21,11 @@
             android:layout_width="75dp"
             android:gravity="center"
             android:layout_height="41dp"
+            android:layout_weight="0.38"
             android:hint="@string/hintRepeat"
             android:textSize="16dp"
             android:background="@drawable/edittext_top_bg"
-            android:layout_marginLeft="40dp" />
+            android:layout_marginLeft="30dp" />
 
         <Spinner
             android:layout_width="100dp"
@@ -31,7 +33,7 @@
             android:layout_marginLeft="40dp"
             android:layout_height="wrap_content"
             android:spinnerMode="dropdown"
-            android:layout_weight="0.46" />
+            android:layout_weight="1" />
         </LinearLayout>
 
     <LinearLayout
@@ -58,6 +60,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
+                android:layout_weight="1"
                 android:text="@string/monday"
                 android:textColor="@color/black"
                 android:layout_marginLeft="4dp"
@@ -66,6 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/tuesday"
+            android:layout_weight="1"
             android:textColor="@color/black"
             android:layout_marginLeft="4dp"
             android:layout_marginTop="10dp"/>
@@ -73,6 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/wenesday"
+            android:layout_weight="1"
             android:textColor="@color/black"
             android:layout_marginLeft="4dp"
             android:layout_marginTop="10dp"/>
@@ -80,6 +85,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/thursday"
+            android:layout_weight="1"
             android:textColor="@color/black"
             android:layout_marginLeft="4dp"
             android:layout_marginTop="10dp"/>
@@ -87,6 +93,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/friday"
+            android:layout_weight="1"
             android:textColor="@color/black"
             android:layout_marginLeft="4dp"
             android:layout_marginTop="10dp"/>
@@ -94,6 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/saturday"
+            android:layout_weight="1"
             android:textColor="@color/black"
             android:layout_marginLeft="4dp"
             android:layout_marginTop="10dp"/>
@@ -102,6 +110,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/sunday"
+            android:layout_weight="1"
             android:textColor="@color/black"
             android:layout_marginLeft="4dp"
             android:layout_marginTop="10dp"/>
@@ -118,17 +127,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/checkboxMonday"
+            android:layout_weight="1"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_marginLeft="5dp"/>
         <CheckBox
             android:layout_width="wrap_content"
             android:id="@+id/checkboxTuesday"
+            android:layout_weight="0.56"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp" />
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_marginLeft="17dp"
+            android:layout_weight="0.71"
             android:button="@drawable/custom_checkbox_exception"
             android:id="@+id/checkboxWednesday"
             android:layout_height="wrap_content"
@@ -136,24 +148,28 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:id="@+id/checkboxThursday"
+            android:layout_weight="0.81"
             android:button="@drawable/custom_checkbox_exception"
-            android:layout_marginLeft="25dp"
+            android:layout_marginLeft="15dp"
             android:layout_height="wrap_content" />
         <CheckBox
             android:layout_width="wrap_content"
-            android:layout_marginLeft="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="0.79"
             android:id="@+id/checkboxFriday"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_height="wrap_content" />
         <CheckBox
             android:layout_width="wrap_content"
             android:id="@+id/checkboxSaturday"
-            android:layout_marginLeft="25dp"
+            android:layout_weight="0.81"
+            android:layout_marginLeft="10dp"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_height="wrap_content" />
         <CheckBox
             android:layout_width="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.93"
             android:id="@+id/checkboxSunday"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_height="wrap_content" />
@@ -172,6 +188,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="0.47"
             android:button="@drawable/custom_checkbox_exception"
             android:id="@+id/checkBoxJanuary"
             android:layout_marginLeft="20dp" />
@@ -181,18 +198,21 @@
             android:id="@+id/checkBoxFebruary"
             android:layout_height="wrap_content"
             android:button="@drawable/custom_checkbox_exception"
-            android:layout_marginLeft="30dp" />
+            android:layout_marginLeft="30dp"
+            android:layout_weight="0.42" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_marginLeft="25dp"
             android:id="@+id/checkBoxMarch"
+            android:layout_weight="0.42"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_height="wrap_content" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:id="@+id/checkBoxApril"
+            android:layout_weight="0.56"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_marginLeft="15dp"
             android:layout_height="wrap_content" />
@@ -200,6 +220,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_marginLeft="15dp"
+            android:layout_weight="0.52"
             android:button="@drawable/custom_checkbox_exception"
             android:id="@+id/checkBoxMay"
             android:layout_height="wrap_content" />
@@ -207,11 +228,13 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:id="@+id/checkBoxJune"
+            android:layout_weight="0.46"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_marginLeft="15dp"
             android:layout_height="wrap_content" />
         <CheckBox
             android:layout_width="wrap_content"
+            android:layout_weight="0.54"
             android:layout_height="wrap_content"
             android:button="@drawable/custom_checkbox_exception"
             android:id="@+id/checkBoxJuly"
@@ -224,6 +247,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout8"
         android:orientation="horizontal"
+        android:layout_weight="1"
         android:layout_below="@+id/linearLayout4"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -231,6 +255,7 @@
 
         <TextView
             android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="fill_parent"
             android:text="@string/january"
             android:textColor="@color/black"
@@ -242,6 +267,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/february"
+            android:layout_weight="1"
             android:textColor="@color/black"
             android:layout_marginLeft="10dp"
             android:textSize="16dp"
@@ -251,6 +277,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/march"
+            android:layout_weight="1"
             android:textSize="16dp"
             android:textColor="@color/black"
             android:layout_marginLeft="10dp"
@@ -260,6 +287,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:textSize="16dp"
+            android:layout_weight="1"
             android:text="@string/april"
             android:textColor="@color/black"
             android:layout_marginLeft="10dp"
@@ -269,6 +297,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:textSize="16dp"
+            android:layout_weight="1"
             android:text="@string/may"
             android:textColor="@color/black"
             android:layout_marginLeft="15dp"
@@ -279,6 +308,7 @@
             android:layout_height="fill_parent"
             android:textSize="16dp"
             android:text="@string/june"
+            android:layout_weight="1"
             android:textColor="@color/black"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp" />
@@ -287,6 +317,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/july"
+            android:layout_weight="1"
             android:textColor="@color/black"
             android:layout_marginLeft="5dp"
             android:textSize="16dp"
@@ -309,6 +340,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/august"
+            android:layout_weight="1"
             android:textColor="@color/black"
             android:layout_marginLeft="5dp"
             android:textSize="16dp"
@@ -318,6 +350,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:text="@string/september"
+            android:layout_weight="1"
             android:textSize="16dp"
             android:textColor="@color/black"
             android:layout_marginLeft="5dp"
@@ -327,6 +360,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:textSize="16dp"
+            android:layout_weight="1"
             android:text="@string/october"
             android:textColor="@color/black"
             android:layout_marginLeft="5dp"
@@ -336,6 +370,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:textSize="16dp"
+            android:layout_weight="1"
             android:text="@string/november"
             android:textColor="@color/black"
             android:layout_marginLeft="5dp"
@@ -345,6 +380,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:textSize="16dp"
+            android:layout_weight="1"
             android:text="@string/december"
             android:textColor="@color/black"
             android:layout_marginLeft="5dp"
@@ -365,6 +401,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:id="@+id/checkBoxAugust"
+            android:layout_weight="1"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp" />
@@ -373,12 +410,14 @@
             android:layout_width="wrap_content"
             android:layout_marginLeft="25dp"
             android:id="@+id/checkBoxSeptember"
+            android:layout_weight="1"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_height="wrap_content" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:id="@+id/checkBoxOctober"
+            android:layout_weight="1"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_marginLeft="40dp"
             android:layout_height="wrap_content" />
@@ -386,6 +425,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_marginLeft="40dp"
+            android:layout_weight="1"
             android:button="@drawable/custom_checkbox_exception"
             android:id="@+id/checkBoxNovember"
             android:layout_height="wrap_content" />
@@ -393,6 +433,7 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:id="@+id/checkBoxDecember"
+            android:layout_weight="1"
             android:button="@drawable/custom_checkbox_exception"
             android:layout_marginLeft="50dp"
             android:layout_height="wrap_content" />
