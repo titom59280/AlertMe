@@ -48,55 +48,50 @@
     <string name="contentPart3EmailConfirmDialog">{fa-caret-right} Recopiez le code de confirmation reçu par Email</string>
     <string name="save">Enregister</string>
     <string name="go">Continuez</string>
-    <!--Volet Navigation-->
+    <!-- Volet Navigation -->
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
 
-    <!--Item volet navigation-->
+    <!-- Item volet navigation -->
     <string-array name="nav_drawer_items">
         <item>Mes Alertes</item>
         <item>Nouvelle Alerte</item>
         <item>Mon Compte</item>
     </string-array>
 
-    <!--Navigation icon-->
+    <!-- Navigation icon -->
     <array name="nav_drawer_icons">
         <item>@drawable/ic_home</item>
         <item>@drawable/plus</item>
         <item>@drawable/plus</item>
         <item>@drawable/user</item>
     </array>
-    <!--Content description-->
+    <!-- Content description -->
     <string name="desc_list_item_icon">Item Icon</string>
 
-    <!--home fragment-->
+    <!-- home fragment -->
     <string name="title_alert_fragment">Mes Alertes</string>
     <string name="new_alert">Créer une alerte</string>
 
-    <!--new alert fragment-->
+    <!-- new alert fragment -->
     <string name="title_new_alert_fragment">Nouvelle Alerte</string>
 
-    <!--my account fragment-->
+    <!-- my account fragment -->
     <string name="title_my_account_fragment">Mon Compte</string>
-
     <string name="personal_informations">Informations personnelles</string>
     <string name="txtAcceptNotifEmail">Accepter les notifications par E-mail</string>
     <string name="txtAcceptNotifPhone">Accepter les notifications par SMS</string>
-
     <string name="confirmations">Confirmations</string>
     <string name="codeConfirmationEmail">Code confirmation E-mail</string>
     <string name="codeConfirmationSms">Code confirmation SMS</string>
     <string name="newConfirCode">Recevoir un nouveau code de confirmation</string>
-
-
     <string name="stats">Statistiques</string>
     <string name="statAlertCreate">Nombre d\'alertes créées</string>
     <string name="statCategoriesCreate">Nombre de catégories créées</string>
     <string name="statCategoriesShare">Nombre de catégories partagées</string>
     <string name="statPoints">Nombre de points</string>
 
-
-    <!--New Alert fragment-->
+    <!-- New Alert fragment -->
     <string name="categoryChoice">Choissisez la categorie</string>
     <string name="share">Partager l\'alerte</string>
     <string name="title">Titre de l\'alerte</string>
@@ -111,6 +106,7 @@
     <string name="minute">Minutes</string>
     <string name="standard">Paramètres standard</string>
     <string name="advanced">Paramètres avancés</string>
+    <string name="template">Modele d\'alerte</string>
     <string name="repeat">Récurrences</string>
     <string name="exceptions">Exceptions</string>
     <string name="chooseExceptions">Definir des Exceptions</string>
@@ -135,11 +131,7 @@
     <string name="october">Octobre</string>
     <string name="november">Novembre</string>
     <string name="december">Decembre</string>
-
-
-
-
-
-
+    <string name="title_activity_see_template_new_alert">SeeTemplateNewAlert</string>
+    <string name="title_activity_see_template">SeeTemplate</string>
 
 </resources>

@@ -283,11 +283,14 @@
     <string name="statPoints">Nombre de points</string>
     <string name="stats">Statistiques</string>
     <string name="sunday">Dimanche</string>
+    <string name="template">Modele d\'alerte</string>
     <string name="thursday">Jeudi</string>
     <string name="title">Titre de l\'alerte</string>
     <string name="titleConfirmDialog">Confirmation !</string>
     <string name="title_activity_accept_category_from_community">AcceptCategoryFromCommunity</string>
     <string name="title_activity_activity_setting_email_phone">activity_setting_email_phone</string>
+    <string name="title_activity_see_template">SeeTemplate</string>
+    <string name="title_activity_see_template_new_alert">SeeTemplateNewAlert</string>
     <string name="title_activity_setting_welcome_page">SettingWelcomePage</string>
     <string name="title_activity_your_alert">Mes Alertes</string>
     <string name="title_alert_fragment">Mes Alertes</string>

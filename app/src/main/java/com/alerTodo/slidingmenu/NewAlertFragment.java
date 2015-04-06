@@ -36,12 +36,13 @@ public class NewAlertFragment extends Fragment {
 
         prepareListData();
 
-        listAdapter = new NewAlertExpandableListAdapter(getActivity(), listDataHeader, listDataChild);
+        listAdapter = new NewAlertExpandableListAdapter(getActivity(), listDataHeader, listDataChild,getFragmentManager());
 
         //setting list adapter
 
 
         expListView.setAdapter(listAdapter);
+        expListView.expandGroup(0);
         expListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
             @Override
             public void onGroupExpand(int groupPosition) {
