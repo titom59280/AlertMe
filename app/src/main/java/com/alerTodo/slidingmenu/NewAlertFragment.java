@@ -22,9 +22,9 @@ public class NewAlertFragment extends Fragment {
     }
 
     NewAlertExpandableListAdapter listAdapter;
-    ExpandableListView expListView, expExceptionListView;
-    List<String> listDataHeader, listDataHeaderException;
-    List<String> listDataChild, listDataChildException;
+    ExpandableListView expListView;
+    List<String> listDataHeader;
+    List<String> listDataChild;
     private int lastExpandedGroupPosition = -1;
 
     @Override
@@ -36,7 +36,7 @@ public class NewAlertFragment extends Fragment {
 
         prepareListData();
 
-        listAdapter = new NewAlertExpandableListAdapter(getActivity(), listDataHeader, listDataChild,getFragmentManager());
+        listAdapter = new NewAlertExpandableListAdapter(getActivity(), listDataHeader, listDataChild, getFragmentManager());
 
         //setting list adapter
 

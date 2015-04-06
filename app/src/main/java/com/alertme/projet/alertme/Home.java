@@ -126,7 +126,7 @@ public class Home extends Activity {
 
 
     public void verifyLogin(){
-       if(loginInit != null&& passInit != null){
+        if(loginInit != null&& passInit != null){
             new CallAPI().execute(URL);
         }
     }
