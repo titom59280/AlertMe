@@ -2,6 +2,41 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies-9d7a986fba37f727c7e4bd9471af85b2bb7aa7b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\exploded-aar\me.grantland\autofittextview\0.2.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="972ca945f0cf5ff0765ab94fa8e1a90661ea197a">
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\pre-dexed\debug\classes-e00e07388ec9d04dbfcb29464c9f74e03a21b3cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-aac251959d96d8139aa63e51cb4ba93772cc4512.jar" />
+    </item>
+    <item
+        jar="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\pre-dexed\debug\classes-a2847039251d54a29aabf702f5a498577ca755b8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\pre-dexed\debug\classes-06a0bb7a2af8043a5392e38122d8f43a2ae3e374.jar" />
+    </item>
+    <item
         jar="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
         jumboMode="false"
         revision="21.1.1"
@@ -34,14 +69,14 @@
         jumboMode="false"
         revision="21.1.1"
         sha1="7bba1039e3413ac0c82452b431a4aaa76648f7e9">
-        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\pre-dexed\debug\android-iconify-1.0.8-f2383c3d9a242f2a5f77b29eee69f790b5dea186.jar" />
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\pre-dexed\debug\android-iconify-1.0.8-f2383c3d9a242f2a5f77b29eee69f790b5dea186.jar" />
     </item>
     <item
         jar="C:\Users\Thomas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.1"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f04299ee9ba650245ad697b7a24c8d210c7e7b3d.jar" />
+        <dex dex="C:\Users\Thomas\Documents\projetEfficom\projet\AlertMe\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-f04299ee9ba650245ad697b7a24c8d210c7e7b3d.jar" />
     </item>
     <item
         jar="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"

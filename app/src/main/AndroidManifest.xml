@@ -33,19 +33,16 @@
             android:label="@string/title_activity_setting_welcome_page" >
         </activity>
         <activity
-            android:name=".Setting_email_phone"
+            android:name=".SettingEmailPhone"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_activity_setting_email_phone" >
-        </activity>
-        <activity
-            android:name=".AcceptCategoryFromCommunity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_accept_category_from_community" >
         </activity>
         <activity
             android:name=".SeeTemplate"
             android:label="@string/title_activity_see_template" >
         </activity>
+
+        <service android:enabled="true" android:name=".NotificationService" />
     </application>
 
 </manifest>

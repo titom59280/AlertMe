@@ -13,7 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ExpandableListView;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.alerTodo.expandablemenu.NewAlertExpandableListAdapter;
 import com.alerTodo.expandablemenu.NewHomeExpandableListAdapter;
@@ -32,6 +34,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class HomeFragment extends Fragment {
@@ -46,7 +49,7 @@ public class HomeFragment extends Fragment {
     NewHomeExpandableListAdapter listAdapter;
     ExpandableListView expListView;
     List<String> listDataHeader;
-    List<String> listDataChild;
+    HashMap<String, List<String>> listDataChild;
     private int lastExpandedGroupPosition = -1;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -99,16 +102,37 @@ public class HomeFragment extends Fragment {
     }
     private void prepareListData() {
         listDataHeader = new ArrayList<String>();
-        listDataChild = new ArrayList<String>();
+        listDataChild = new HashMap<String, List<String>>();
 
         //adding header data
         listDataHeader.add("Personnel");
         listDataHeader.add("Professionnel");
         listDataHeader.add("Administratif");
 
+        //TEST LIST ALERT
+        List<String> perso = new ArrayList<>();
+        perso.add("testPerso1");
+        perso.add("testPerso2");
+        perso.add("testPerso3");
+        perso.add("testPerso4");
 
-        listDataChild.add(listDataHeader.get(0));
+        //TEST LIST ALERT
+        List<String> pro = new ArrayList<>();
+        pro.add("testPro1");
+        pro.add("testPro2");
 
+        //TEST LIST ALERT
+        List<String> admin = new ArrayList<>();
+        admin.add("testAdmin1");
+        admin.add("testAdmin2");
+        admin.add("testAdmin3");
+        admin.add("testAdmin4");
+        admin.add("testAdmin5");
+        admin.add("testAdmin6");
+
+        listDataChild.put(listDataHeader.get(0),perso);
+        listDataChild.put(listDataHeader.get(1),pro);
+        listDataChild.put(listDataHeader.get(2),admin);
 
     }
     @Override

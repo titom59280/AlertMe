@@ -22,7 +22,7 @@ public class SettingWelcomePage extends ActionBarActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SettingWelcomePage.this, Setting_email_phone.class);
+                Intent intent = new Intent(SettingWelcomePage.this, SettingEmailPhone.class);
                 startActivity(intent);
             }
         });

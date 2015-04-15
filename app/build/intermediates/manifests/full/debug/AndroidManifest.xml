@@ -39,19 +39,18 @@
             android:label="@string/title_activity_setting_welcome_page" >
         </activity>
         <activity
-            android:name="com.alertme.projet.alertme.Setting_email_phone"
+            android:name="com.alertme.projet.alertme.SettingEmailPhone"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_activity_setting_email_phone" >
-        </activity>
-        <activity
-            android:name="com.alertme.projet.alertme.AcceptCategoryFromCommunity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_accept_category_from_community" >
         </activity>
         <activity
             android:name="com.alertme.projet.alertme.SeeTemplate"
             android:label="@string/title_activity_see_template" >
         </activity>
+
+        <service
+            android:name="com.alertme.projet.alertme.NotificationService"
+            android:enabled="true" />
     </application>
 
 </manifest>

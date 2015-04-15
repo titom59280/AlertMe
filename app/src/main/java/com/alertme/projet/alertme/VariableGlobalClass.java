@@ -44,13 +44,33 @@ public class VariableGlobalClass extends Application{
     private String email;
 
     public String getTitleAlert() {
-        return TitleAlert;
+        return titleAlert;
     }
 
     public void setTitleAlert(String titleAlert) {
-        TitleAlert = titleAlert;
+        this.titleAlert = titleAlert;
     }
 
-    private String TitleAlert;
+    private String titleAlert;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    private String username;
+
+    public String getPass() {
+        return pass;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
+
+    private String pass;
     private String mail;
 }
