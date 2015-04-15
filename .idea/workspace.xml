@@ -84,39 +84,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71100d25-5a6f-4452-ad68-1ed5a3194e79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/NotificationService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/SettingEmailPhone.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/WrongEmailFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/WrongPhoneFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/action_alert_dialog.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/wrong_email.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/wrong_phone.xml" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\src\main\java\com\alertme\projet\alertme\AcceptCategoryFromCommunity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\src\main\java\com\alertme\projet\alertme\Setting_email_phone.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\src\main\res\layoutbackup\activity_accept_category_from_community.xml" afterPath="" />
       <change type="MOVED" beforePath="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\.idea\libraries\autofittextview_0_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/autofittextview_0_2_1.xml" />
-      <change type="MOVED" beforePath="C:\Users\Thomas\Documents\projetEfficom\projet fin annee eii\AlertMe\app\src\main\res\values\strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-fr/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/Thumbs.db" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Home.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/Home.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/HomeFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/slidingmenu/HomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/NewHomeExpandableListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alerTodo/expandablemenu/NewHomeExpandableListAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/alertme/projet/alertme/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/alertme/projet/alertme/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/SettingWelcomePage.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/SettingWelcomePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/VariableGlobalClass.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/alertme/projet/alertme/VariableGlobalClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_activity_setting_email_phone.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_activity_setting_email_phone.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_see_template.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_see_template.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_welcome_page.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting_welcome_page.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_alert_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_alert_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_your_alert.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_your_alert.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -1619,7 +1590,7 @@
     <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962447" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32267037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
