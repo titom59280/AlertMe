@@ -63,6 +63,16 @@ public class VariableGlobalClass extends Application{
 
     private String username;
 
+    public String getMessageFromWebservice() {
+        return messageFromWebservice;
+    }
+
+    public void setMessageFromWebservice(String messageFromWebservice) {
+        this.messageFromWebservice = messageFromWebservice;
+    }
+
+    private String messageFromWebservice;
+
     public String getPass() {
         return pass;
     }
